@@ -10,6 +10,19 @@ sudo apt-get install gawk wget git diffstat unzip texinfo gcc-multilib \
      build-essential chrpath socat libsdl1.2-dev xterm picocom ncurses-dev lzop \
      gcc-arm-linux-gnueabihf
 ```
+
+## Partition MMC
+    
+```
+Device         Boot Start      End  Sectors  Size Id Type
+/dev/mmcblk0p1       2048    67583    65536   32M  e W95 FAT16 (LBA)
+/dev/mmcblk0p2      67584 15359999 15292416  7.3G 83 Linux
+```
+    
+Command to start partitioning:
+```
+sudo fdisk /dev/mmcblk0
+```
     
 ## Bootloader : u-boot
     
