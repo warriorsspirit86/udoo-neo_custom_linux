@@ -22,6 +22,23 @@ $ make udoo_neo_defconfig
 $ make -j8
 ```
 
+## Kernel : linux-5.7.7
+    
+Configure kernel for udoo:
+```
+ARCH=arm make udoo_neo_defconfig
+```
+For any kernel configuration needed:
+```
+ARCH=arm make menuconfig
+```
+Build kernel and create zImage, compile dtbs and modules:        
+```
+ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make zImage -j8
+ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make dtbs -j8
+ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make modules -j8
+```
+
 ### flashing bootloader
     
 Unmount all the partition from of the mmc card
@@ -29,6 +46,16 @@ Unmount all the partition from of the mmc card
 $ lsblk
 $ sudo dd if=SPL of=/dev/mmcblk0 bs=1K seek=1
 $ sudo dd if=u-boot.img of=/dev/mmcblk0 bs=1K seek=69
+```
+    
+### flashing kernel
+```
+BOOT_PARTITION=/path/to/boot-partition
+ROOT_PARTITION=/path/to/root-partition
+
+cp arch/arm/boot/zImage $BOOT_PARTITION
+cp arch/arm/boot/dts/*.dtb $BOOT_PARTITION/dts
+ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make firmware_install modules_install INSTALL_MOD_PATH=$ROOT_PARTITION
 ```
 
 ## Logs ref
