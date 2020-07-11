@@ -1,0 +1,3 @@
+deb http://repository-test.udoo.org/modular/bsp-neo-linux41 bionic main
+deb http://repository-test.udoo.org/modular/imx6-viv622 bionic main
+deb http://repository-test.udoo.org/modular/udoo-utils bionic main

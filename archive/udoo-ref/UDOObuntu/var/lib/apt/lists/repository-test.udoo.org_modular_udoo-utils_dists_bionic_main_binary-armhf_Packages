@@ -1,0 +1,429 @@
+Package: can-utils
+Version: 2018.02.0-1-29bits
+Architecture: armhf
+Maintainer: Alexander GQ Gerasiov <gq@debian.org>
+Installed-Size: 396
+Depends: libc6 (>= 2.17)
+Homepage: https://github.com/linux-can/can-utils
+Priority: optional
+Section: net
+Filename: pool/main/c/can-utils/can-utils_2018.02.0-1-29bits_armhf.deb
+Size: 107876
+SHA256: 53944ec26e3a891dc2f72d29ad7ed2bad77c9e0c3c435f7f651e8f614626963f
+SHA1: d49d39b56dbaead70a2795c1598f124f7d42a647
+MD5sum: 7877adabc4de956a4eccdf5513f54a69
+Description: SocketCAN userspace utilities and tools
+ CAN is a message-based network protocol designed for vehicles originally
+ created by Robert Bosch GmbH. SocketCAN is a set of open source CAN drivers
+ and a networking stack contributed by Volkswagen Research to the Linux kernel.
+ .
+ This package contains some userspace utilities for Linux SocketCAN subsystem.
+ .
+ Basic tools to display, record, generate and replay CAN traffic:
+ candump, canplayer, cansend, cangen, cansniffer.
+ CAN access via IP sockets: canlogserver, bcmserver, socketcand.
+ CAN in-kernel gateway configuration: cangw.
+ CAN bus measurement and testing: canbusload, can-calc-bit-timing, canfdtest.
+ ISO-TP (ISO 15765-2 2016) tools: isotpsend, isotprecv, isotpsniffer,
+ isotpdump, isotpserver, isotpperf, isotptun.
+ CAN log file converters: asc2log, log2asc, log2long.
+ CAN Serial Line Discipline configuration (for slcan driver):
+ slcan_attach, slcand, slcanpty.
+ SAE J1939 tools and demo: jacd, jspy, jsr, testj1939.
+
+Package: chromium-nogpu
+Version: 1.0
+Architecture: armhf
+Maintainer: Francesco Montefoschi <francesco.montefoschi@udoo.org>
+Installed-Size: 10
+Depends: chromium-browser
+Priority: optional
+Section: utils
+Filename: pool/main/c/chromium-nogpu/chromium-nogpu_1.0_armhf.deb
+Size: 1248
+SHA256: 94c93f503669d66bcb3c89cd774e203d74a40ca599a2f5c53e35e3e58239dd25
+SHA1: 3451908647aa3c73d9060b79405748daf23336ed
+MD5sum: e9cb2665300ba8e5a91b77ff86dd8848
+Description: Disable GPU in Chromium
+
+Package: dtweb
+Version: 1.15
+Architecture: armhf
+Maintainer: Francesco Montefoschi <francesco.monte@gmail.com>
+Installed-Size: 4286
+Depends: php-cli, build-essential
+Homepage: https://github.com/fmntf/dtweb
+Priority: optional
+Section: admin
+Filename: pool/main/d/dtweb/dtweb_1.15_armhf.deb
+Size: 2258860
+SHA256: 3fe73891d8ca57fbe143c182b84bd646768527d3311568e6368c88ce82e3678b
+SHA1: 358467399cc4dbc80987aebf94c4bdeddc3e81a4
+MD5sum: c59186b83e01ee47939dd6be52783862
+Description: Device Tree editor
+ Device Tree editor in a web browser
+
+Package: gksu
+Version: 2.0.2-9ubuntu1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 280
+Depends: libc6 (>= 2.4), libgksu2-0 (>= 2.0.8), libglib2.0-0 (>= 2.16), libgtk2.0-0 (>= 2.8.0), sudo
+Recommends: gnome-keyring
+Conflicts: gnome-sudo (<= 0.3-1.1)
+Replaces: gnome-sudo, libgksu0
+Provides: gnome-sudo
+Homepage: http://www.nongnu.org/gksu
+Priority: optional
+Section: admin
+Filename: pool/main/g/gksu/gksu_2.0.2-9ubuntu1_armhf.deb
+Size: 75068
+SHA256: 8f2d39cf3e56b4030406c1e7aae83e7b8c518ecd215b932cd54a184dd0f12317
+SHA1: 3a4dd474f59180248ed6b98163b676dc4b9d5c2d
+MD5sum: 80ad150351d3cedeae7a05e780cb6e75
+Description: graphical front-end to su and sudo
+ This package provides GTK+ front-ends for su (gksu) and sudo (gksudo),
+ allowing users to give a password and run graphical commands as root
+ without needing to invoke su or sudo in a terminal emulator.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libgksu2-0
+Source: libgksu
+Version: 2.0.13~pre1-6ubuntu8
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 366
+Depends: gconf-service, libc6 (>= 2.27), libcairo2 (>= 1.2.4), libgconf-2-4 (>= 3.2.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgnome-keyring0 (>= 3.2.2-2~), libgtk2.0-0 (>= 2.12.0), libgtop-2.0-11 (>= 2.22.3), libstartup-notification0 (>= 0.4), libx11-6, gconf2 (>= 2.28.1-2), xauth | xbase-clients
+Recommends: sudo
+Homepage: http://www.nongnu.org/gksu
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgksu/libgksu2-0_2.0.13~pre1-6ubuntu8_armhf.deb
+Size: 92704
+SHA256: d12f2811c6f5b111965f87fa3841aaf06edea5e6878de7162e0cc208c98c8197
+SHA1: 7075ab3b6dde4c079a3b04307c5b2d8c3ff620a9
+MD5sum: b348bb5f2a43ee86344c9166698a13a4
+Description: library providing su and sudo functionality
+ This library comes from the gksu program. It provides a simple
+ API to use su and sudo in programs that need to execute tasks
+ as other user. It provides X authentication facilities for running
+ programs in an X session.
+Original-Maintainer: Gustavo Noronha Silva <kov@debian.org>
+
+Package: libgksu2-dev
+Source: libgksu
+Version: 2.0.13~pre1-6ubuntu8
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 174
+Depends: libglib2.0-dev, libgksu2-0 (= 2.0.13~pre1-6ubuntu8), libgnome-keyring-dev, libgconf2-dev, libstartup-notification0-dev
+Homepage: http://www.nongnu.org/gksu
+Priority: optional
+Section: libdevel
+Filename: pool/main/libg/libgksu/libgksu2-dev_2.0.13~pre1-6ubuntu8_armhf.deb
+Size: 57604
+SHA256: d6184bcb48eace80760c3d58cf8cdafe08fd90e15d6bb045eb7de100eaa88318
+SHA1: 751943b72b25ea90c91166f86ffe6a691e7c5fe6
+MD5sum: fb6f38c07d4056af9760b5d4f5dc522e
+Description: library providing su and sudo functionality (development files)
+ This library comes from the gksu program. It provides a simple
+ API to use su and sudo in programs that need to execute tasks
+ as other user. It provides X authentication facilities for running
+ programs in an X session.
+ .
+ This package contains the development files.
+Original-Maintainer: Gustavo Noronha Silva <kov@debian.org>
+
+Package: libjson-c2
+Source: json-c
+Version: 0.11-4ubuntu2
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 70
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.8)
+Multi-Arch: same
+Homepage: https://github.com/json-c/json-c/wiki
+Priority: extra
+Section: libs
+Filename: pool/main/j/json-c/libjson-c2_0.11-4ubuntu2_armhf.deb
+Size: 20530
+SHA256: cca7ed8a05847547e018721e576aeb78f976c430639ec7d5e63de0698d884e46
+SHA1: ad952d9b3d1f1beee585ed0610b50b0e67a401b6
+MD5sum: b7da6b693d15fbbb370b8ded18ac1db0
+Description: JSON manipulation library - shared library
+ This library allows you to easily construct JSON objects in C,
+ output them as JSON formatted strings and parse JSON formatted
+ strings back into the C representation of JSON objects.
+Original-Maintainer: fabien boucher <fabien.dot.boucher@gmail.com>
+
+Package: libwebsockets7
+Source: libwebsockets
+Version: 1.7.1-1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Pentchev <roam@ringlet.net>
+Installed-Size: 116
+Depends: libc6 (>= 2.4), libev4 (>= 1:4.04), libssl1.0.0 (>= 1.0.0), libuv1 (>= 1.4.2), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://libwebsockets.org/
+Priority: optional
+Section: libs
+Filename: pool/main/libw/libwebsockets/libwebsockets7_1.7.1-1_armhf.deb
+Size: 54196
+SHA256: e8961bb0c1ef5728813cc3e8ed4236631d5fc52b204c11449e4dd60eff12de06
+SHA1: ca72c7ec634556f219552dfb9fa4b13bb02c40b9
+MD5sum: d96d684b13e09257f5b428cfefe7a80b
+Description: lightweight C websockets library
+ Libwebsockets is a lightweight pure C library for both websockets
+ clients and servers built to use minimal CPU and memory resources
+ and provide fast throughput in both directions.
+ .
+ This package contains the shared library.
+
+Package: ttyd
+Version: 1.3.3-1
+Architecture: armhf
+Maintainer: Shuanglei Tao <tsl0922@gmail.com>
+Installed-Size: 177
+Depends: libc6 (>= 2.15), libjson-c2 (>= 0.10), libssl1.0.0 (>= 1.0.0), libwebsockets7 (>= 1.7.0)
+Homepage: https://tsl0922.github.io/ttyd/
+Priority: optional
+Section: utils
+Filename: pool/main/t/ttyd/ttyd_1.3.3-1_armhf.deb
+Size: 39594
+SHA256: bcfc93576b9d98e3be784f43d2f7a7796de86cfecfc8aa18928c1afa24ed88fb
+SHA1: 40b12dbe7af44f10e7bd63a610ad68e487047e9d
+MD5sum: c851245b8d0574b6e9a253e6d0cfe724
+Description: Web terminal sharing tool
+ Ttyd is a simple command-line tool for sharing terminal over the web, inspired
+ by GoTTY.
+ .
+ Features include:
+  * Built on top of Libwebsockets with C for speed
+  * Fully-featured terminal based on Xterm.js with CJK and IME support
+  * SSL support based on OpenSSL
+  * Run any custom command with options
+  * Basic authentication support and many other custom options
+  * Cross platform: macOS, Linux, FreeBSD, OpenWrt/LEDE, Windows
+
+Package: udev-persistent-network
+Version: 1
+Architecture: all
+Maintainer: UDOO Team <social@udoo.org>
+Installed-Size: 1
+Homepage: http://www.udoo.org/
+Priority: extra
+Section: network
+Filename: pool/main/u/udev-persistent-network/udev-persistent-network_1_all.deb
+Size: 1004
+SHA256: 35eafe09dcccac64d2d399a7584af21dc9a3d92a58164349256ddfe317650c79
+SHA1: e463c35d900b911f154ea6f633a2e3bc4f5ccefd
+MD5sum: a71e3b9ad4ef1fd048d1a7a1edcdb2db
+Description: Persistent network udev rules
+
+Package: udoo-artwork
+Version: 2017.11
+Architecture: all
+Maintainer: UDOO Team <social@udoo.org>
+Installed-Size: 3476
+Homepage: http://www.udoo.org
+Priority: optional
+Section: universe/x11
+Filename: pool/main/u/udoo-artwork/udoo-artwork_2017.11_all.deb
+Size: 3387312
+SHA256: eeb82c18f771130056cae86c4603f5e3b3786983339795c8f39bb61d6b2a672a
+SHA1: 776d8339cc7af0fa5f98a05799dc89e706d08d0d
+MD5sum: 0b258db98bc26948a24ab50b5da8b1e9
+Description: UDOO Desktop Wallpapers
+ Collection of FullHD wallpapers from the UDOO Team to all the udooers around the world!
+
+Package: udoo-autostart
+Version: 2017
+Architecture: all
+Maintainer: Francesco Montefoschi <francesco.montefoschi@udoo.org>
+Installed-Size: 18
+Depends: init-system-helpers (>= 1.18~)
+Homepage: http://www.udoo.org
+Priority: optional
+Section: utils
+Filename: pool/main/u/udoo-autostart/udoo-autostart_2017_all.deb
+Size: 2664
+SHA256: ecfb82da60175761f7dca21bf54450f5413b1481744ca63468e66edb1c0a1430
+SHA1: c7b6b09a383f89f1168f90e08912236d84785131
+MD5sum: e70acf7003c62e4c3892659974116f5d
+Description: Utility for the first run.
+
+Package: udoo-dhcpd
+Version: 2.0
+Architecture: all
+Maintainer: Francesco Montefoschi <francesco.monte@gmail.com>
+Installed-Size: 25
+Depends: isc-dhcp-server (>= 4.3)
+Priority: optional
+Section: net
+Filename: pool/main/u/udoo-dhcpd/udoo-dhcpd_2.0_all.deb
+Size: 1284
+SHA256: 9f8db2c96bf8dd0c41cee291a5f888a7f4ed22a1730b9f436827acdf3d7aa103
+SHA1: d0676e10b463673a799e3aef3e3a5dc9d6fbb009
+MD5sum: b6803a6d0a600fadf46ed08ff22219aa
+Description: UDOO DHCP server metapackage with configuration files
+
+Package: udoo-firstrun
+Version: 2
+Architecture: armhf
+Maintainer: Francesco Montefoschi <francesco.montefoschi@udoo.org>
+Installed-Size: 21
+Homepage: http://udoo.org
+Priority: optional
+Section: main
+Filename: pool/main/u/udoo-firstrun/udoo-firstrun_2_armhf.deb
+Size: 3276
+SHA256: 17c5f5e4441862ef18e050f0b770fd4fd77ea722e897da57d8056e611e93b965
+SHA1: f9471287e662dc19860ccb6dd96bc8e897b5e04f
+MD5sum: 7597e1c08cc60c12c517d21605644109
+Description: Utility for the first run.
+
+Package: udoo-gmulti
+Version: 0.1
+Architecture: all
+Maintainer: Francesco Montefoschi <francesco.montefoschi@udoo.org>
+Installed-Size: 20
+Depends: init-system-helpers (>= 1.18~)
+Homepage: http://www.udoo.org
+Priority: optional
+Section: utils
+Filename: pool/main/u/udoo-gmulti/udoo-gmulti_0.1_all.deb
+Size: 3622
+SHA256: a32ed2de1c448740dd1ffcdd8e49cd9f2f18b7edc16aee78e429368fb1030c70
+SHA1: b0ae724ebaf076041b5ad3bf9993cdf211407ed5
+MD5sum: 145c510c5c6f66924ada0cf60bf1d2b0
+Description: Loads gmulti modules on boot
+
+Package: udoo-gpio-export
+Version: 0.4
+Architecture: all
+Maintainer: Ettore Chimenti <ek5.chimenti@gmail.com>
+Installed-Size: 23
+Depends: init-system-helpers (>= 1.18~)
+Homepage: http://udoo.org
+Priority: optional
+Section: utils
+Filename: pool/main/u/udoo-gpio-export/udoo-gpio-export_0.4_all.deb
+Size: 4504
+SHA256: 973ed05405bfecbfa90df23365b7d0d0ac3d186d0fe9248d6c6bc20bd1c1fb68
+SHA1: 8f62585d99ce9a21f14b61e7661280525895c62d
+MD5sum: 24a27c10edc235e1670d02ddb4d62217
+Description: Auto GPIO exporting and linking script for UDOO
+ Simple bash script that exports all the GPIOs and Brick Sensors in two directories ( /gpio and /sensors by default ).
+
+Package: udoo-htntp
+Version: 1
+Architecture: all
+Maintainer: Francesco Montefoschi <francesco.montefoschi@udoo.org>
+Installed-Size: 47
+Depends: ntpdate, sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16)
+Homepage: https://udoo.org
+Priority: optional
+Section: utils
+Filename: pool/main/u/udoo-htntp/udoo-htntp_1_all.deb
+Size: 2778
+SHA256: c1e3910d5cc1b5528d230a5b30444733b71c4334e550f2e5637b6a80ca7a901c
+SHA1: d88426657dc69908646caec2eab7716e913e04af
+MD5sum: ec2350820f1cea0bcfb9f35c1ae2c9d9
+Description: Date/time sync over NTP and HTTP
+ Utility to syncronize the board clock with NTP (when available) or HTTP. This script runs after the boot and when a network interface is activated.
+
+Package: udoo-softap
+Version: 1.0
+Architecture: all
+Maintainer: Francesco Montefoschi <francesco.monte@gmail.com>
+Installed-Size: 26
+Depends: udoo-dhcpd, hostapd
+Priority: optional
+Section: net
+Filename: pool/main/u/udoo-softap/udoo-softap_1.0_all.deb
+Size: 1458
+SHA256: 2059c5da46fa371932567991f631718e48931e93f9f23638831ba5c96711f4e9
+SHA1: 1366ae998852f12734503349e9ef6c3b93152e49
+MD5sum: e8782abf3e24824026de210d91c0d7ef
+Description: UDOO SoftAP metapackage
+
+Package: udoo-vncserver
+Version: 1.0
+Architecture: all
+Maintainer: Francesco Montefoschi <francesco.montefoschi@udoo.org>
+Installed-Size: 16
+Depends: init-system-helpers (>= 1.18~), x11vnc
+Homepage: http://www.udoo.org
+Priority: optional
+Section: utils
+Filename: pool/main/u/udoo-vncserver/udoo-vncserver_1.0_all.deb
+Size: 2646
+SHA256: b020f53216e589b5cd7496bdd68abc241c364884be170d5f3c83aaf08f1d9741
+SHA1: 09d179e19476cdbe79eec24520cb4bcf9e815cdd
+MD5sum: 8faa962ec7943a17a4762034d885173f
+Description: Utility for the first run.
+
+Package: udoo-web-conf
+Version: 2.6.0
+Architecture: armhf
+Maintainer: Francesco Montefoschi <francesco.montefoschi@udoo.org>
+Installed-Size: 18896
+Depends: udoo-web-docs, php-cli, php-curl, network-manager, dtweb, ttyd, python3-pam, tmux (>= 2.2), xvfb
+Breaks: udoo-web-conf-modules
+Replaces: udoo-web-conf-modules
+Homepage: https://www.udoo.org
+Priority: optional
+Section: utils
+Filename: pool/main/u/udoo-web-conf/udoo-web-conf_2.6.0_armhf.deb
+Size: 4207996
+SHA256: a8121a10966192c70cfe4c9776174e8e6b234201434946abd7e40c4a9b9460f2
+SHA1: 77358a07f5096e6de17d1da7138250de74f79ac7
+MD5sum: 61c69df790097468554db872fb6381c5
+Description: UDOO Web Control Panel
+ This tool is designed to allow easy configuration and act as an handy web-based
+ control panel for UDOO boards.
+
+Package: x11vnc
+Version: 0.9.13-3-udoo
+Architecture: armhf
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 1858
+Depends: openssl, tk, x11vnc-data (= 0.9.13-3-udoo), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.15), libssl1.1 (>= 1.1.0), libvncclient1 (>= 0.9.10), libvncserver1 (>= 0.9.10), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1, libxrandr2, libxtst6
+Homepage: http://www.karlrunge.com/x11vnc/
+Priority: optional
+Section: x11
+Filename: pool/main/x/x11vnc/x11vnc_0.9.13-3-udoo_armhf.deb
+Size: 965596
+SHA256: 04d87f457bdc22e67c39b7cef2e68479f7dd63b4f8180b5ae522b3de9483824e
+SHA1: 46be1f5e27cc390c94e4705a3fd4a0d9238ded08
+MD5sum: 888757b48437b132fb0bf10c84d0b6b0
+Description: VNC server to allow remote access to an existing X session
+ x11vnc allows one to view remotely and interact with real X displays (i.e. a
+ display corresponding to a physical monitor, keyboard, and mouse) with any
+ VNC viewer. It has built-in SSL encryption and authentication, UNIX account
+ and password support, server-side scaling, single port HTTPS and VNC, mDNS
+ service advertising, and TightVNC and UltraVNC file-transfer.
+
+Package: x11vnc-data
+Source: x11vnc
+Version: 0.9.13-3-udoo
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 630
+Recommends: x11vnc (>= 0.9.13-3-udoo)
+Replaces: x11vnc (<< 0.9.10)
+Homepage: http://www.karlrunge.com/x11vnc/
+Priority: optional
+Section: x11
+Filename: pool/main/x/x11vnc/x11vnc-data_0.9.13-3-udoo_all.deb
+Size: 215624
+SHA256: 6fe5dfa995966827863bd058e7d5160094d8ca9abc81c09d999ae227d9de487c
+SHA1: 032495635ae06fa84607c3baa3ef67d1a86e9cb3
+MD5sum: 5abea705497b33532970427a0a7361de
+Description: data files for x11vnc
+ This package contains the data files for x11vnc, a VNC server allowing remote
+ access to an existing X session. Unless you have 'x11vnc' package installed,
+ you probably won't find this package useful.
+

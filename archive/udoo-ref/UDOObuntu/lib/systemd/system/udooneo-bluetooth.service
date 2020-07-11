@@ -1,0 +1,10 @@
+[Unit]
+Description=UDOO Neo Bluetooth Stack
+
+[Service]
+Type=exec
+ExecStart=/usr/sbin/uimlauncher
+
+[Install]
+WantedBy=multi-user.target
+

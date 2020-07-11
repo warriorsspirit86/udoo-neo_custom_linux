@@ -1,0 +1,10 @@
+[Unit]
+Description=UDOO g_multi
+Before=isc-dhcp-server.service
+
+[Service]
+ExecStart=/usr/bin/udoo-gmulti
+SyslogIdentifier=udoo-gmulti
+
+[Install]
+WantedBy=local-fs.target

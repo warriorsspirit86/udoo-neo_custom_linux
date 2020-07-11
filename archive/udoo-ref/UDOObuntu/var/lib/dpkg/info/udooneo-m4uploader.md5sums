@@ -1,0 +1,5 @@
+90df35b72e2bcbe2cf0719737fa35194  lib/systemd/system/udooneo-m4uploader.service
+0ef9d23cb81031e35299e6fab997c6eb  usr/bin/mqx_upload_on_m4SoloX
+57f96a585f42dd282689a766e22ef461  usr/bin/udooneo-m4uploader
+0c21f1780f7eb088e4ba245df87f52a0  usr/share/doc/udooneo-m4uploader/changelog.gz
+de3ddc768792a18a97404b26d0542b20  usr/share/doc/udooneo-m4uploader/copyright

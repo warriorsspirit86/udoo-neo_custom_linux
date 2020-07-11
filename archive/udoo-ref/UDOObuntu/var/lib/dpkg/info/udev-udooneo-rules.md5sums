@@ -1,0 +1,4 @@
+562b965456d281af63b1104c831e26d9  etc/udev/rules.d/50-udooneo-dev.rules
+42d1aa2b0319809546f91e17643cb883  usr/share/doc/udev-udooneo-rules/README.Debian
+e361794141442a6372f4cd80c8bab34b  usr/share/doc/udev-udooneo-rules/changelog.gz
+a0468ba93fe3061fba60b03ac369bec9  usr/share/doc/udev-udooneo-rules/copyright

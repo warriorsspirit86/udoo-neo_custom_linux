@@ -1,0 +1,4 @@
+fd38b08a59f6296f518220fe52eb506d  lib/systemd/system/udoo-firstrun.service
+c1feccd718ef646796044bfd26966963  usr/sbin/udoo-firstrun
+2102e478dab219b43155ad117b746b1b  usr/share/doc/udoo-firstrun/changelog.gz
+1266a48401437293bae508737dbecf77  usr/share/doc/udoo-firstrun/copyright

@@ -1,0 +1,390 @@
+Package: jhove
+Architecture: all
+Version: 1.20.1-5~18.04.1ubuntu1
+Priority: optional
+Section: multiverse/utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 12000
+Depends: libjaxb-api-java (>= 2.3.1)
+Filename: pool/multiverse/j/jhove/jhove_1.20.1-5~18.04.1ubuntu1_all.deb
+Size: 1426472
+MD5sum: 2ff1cd5931cce8c32e20cba4278b2e67
+SHA1: 2fc5b1ccde31b793910a75e1c78ed8fe89dfc33d
+SHA256: 56f2e6508800ba25623dac2c4448b0efc7a7570d04a961616e6ff815ece3c913
+Homepage: https://github.com/openpreserve/jhove/
+Description: JSTOR/Harvard Object Validation Environment
+Description-md5: febe0cb6a55fdf2af5baf3d3965883ac
+
+Package: libclamunrar7
+Architecture: armhf
+Version: 0.100.1-1~ubuntu0.18.04.1
+Priority: extra
+Section: multiverse/libs
+Source: libclamunrar
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 69
+Depends: libclamav7, libc6 (>= 2.4)
+Filename: pool/multiverse/libc/libclamunrar/libclamunrar7_0.100.1-1~ubuntu0.18.04.1_armhf.deb
+Size: 29120
+MD5sum: d47fb2344e0dedde8a8d43a8fbcc09fd
+SHA1: 9ec0f1b3916362d9c28241ba0df4eb3b803a9a54
+SHA256: b08a1ebb97733f822277a9abfb1fba63e98126f0f93e4e17c29692b92330682c
+Homepage: https://www.clamav.net/
+Description: anti-virus utility for Unix - unrar support
+Description-md5: cc91b3ee0883ae72d88576f9ca8c850e
+
+Package: libcuda1-331
+Architecture: armhf
+Version: 340.107-0ubuntu0.18.04.3
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20
+Depends: libcuda1-340
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/libcuda1-331_340.107-0ubuntu0.18.04.3_armhf.deb
+Size: 4900
+MD5sum: 3e7c3d748ebfd6ec408698c0e8e00e33
+SHA1: 6f0b60c5d9a89c7acb30c73021dd0b84416f5254
+SHA256: 001dc23fe700fb2474246dde330958894fce90a9b78b64d0c96bdcea31f2cadf
+Description: Transitional package for libcuda1-340
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+
+Package: libcuda1-331-updates
+Architecture: armhf
+Version: 340.107-0ubuntu0.18.04.3
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20
+Depends: libcuda1-340
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/libcuda1-331-updates_340.107-0ubuntu0.18.04.3_armhf.deb
+Size: 4912
+MD5sum: 883e3c538816b04d2bdc791a31096d4c
+SHA1: 70aafbcf2f1e1159f49933ec45c4cf685da7658c
+SHA256: 976bee1d202da7e6bdfb9fba950e6d2b708aa07f0002303ca192c6df80301421
+Description: Transitional package for libcuda1-340
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+
+Package: libcuda1-340-updates
+Architecture: armhf
+Version: 340.107-0ubuntu0.18.04.3
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20
+Depends: libcuda1-340
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/libcuda1-340-updates_340.107-0ubuntu0.18.04.3_armhf.deb
+Size: 4904
+MD5sum: 091aea18fb2fcc6243dd53c2b2fe0ced
+SHA1: d6588e2faca911f9d9d8fd3fbdb3d8262f2aaa3e
+SHA256: 17ebf733968aee491ebcb7538456316dfafeb6fa81b348ac7947077223e914e7
+Description: Transitional package for libcuda1-340
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+
+Package: libcuda1-384
+Architecture: armhf
+Version: 390.116-0ubuntu0.18.04.1
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-390
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 21
+Depends: nvidia-headless-390
+Filename: pool/multiverse/n/nvidia-graphics-drivers-390/libcuda1-384_390.116-0ubuntu0.18.04.1_armhf.deb
+Size: 9192
+MD5sum: 895e4caa3fd902f9eb8263f496cc2d42
+SHA1: 1ddb7e966757f04eafdde3ca1cb8e79c7f482b3f
+SHA256: d78cf66a507abe67d9e5cd794f525841dffb5cf0aa06018ce15cd2a8be80c097
+Homepage: http://www.nvidia.com
+Description: Transitional package for nvidia-headless-390
+Description-md5: c6dbe40660b5059827bb841b3e8d47a1
+
+Package: linux-firmware-raspi2
+Architecture: armhf
+Version: 1.20190215-0ubuntu0.18.04.1
+Priority: optional
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 12464
+Filename: pool/multiverse/l/linux-firmware-raspi2/linux-firmware-raspi2_1.20190215-0ubuntu0.18.04.1_armhf.deb
+Size: 3611612
+MD5sum: f8d8a03684932b3f26c27276bb319003
+SHA1: 288696ff65c2ca8b6bf8f43e1c92daa51103e813
+SHA256: 3a62204a147c6c83794b6b03786f2c78612aad835e2fa4c4fef296275ffbae02
+Homepage: https://github.com/raspberrypi/firmware
+Description: RaspberryPi2/3 GPU firmware and bootloaders
+Description-md5: 028ceeffa41fb9a7d76da45968c90628
+
+Package: nvidia-libopencl1-331
+Architecture: armhf
+Version: 340.107-0ubuntu0.18.04.3
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/nvidia-libopencl1-331_340.107-0ubuntu0.18.04.3_armhf.deb
+Size: 6732
+MD5sum: 3038c6edc4fe68c1cdb6f4e42e77689d
+SHA1: 5e9bbd3a85d2ed5b445d45223d52f152ca923517
+SHA256: a4c385b795dbc41cda839c0242068c65e0117562521267d0108cc448c1e1b392
+Description: Transitional package for nvidia-libopencl1-340
+Description-md5: c0bc1edc3452a373d95e34ed168d26d3
+
+Package: nvidia-libopencl1-331-updates
+Architecture: armhf
+Version: 340.107-0ubuntu0.18.04.3
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/nvidia-libopencl1-331-updates_340.107-0ubuntu0.18.04.3_armhf.deb
+Size: 6752
+MD5sum: de1016ba7b31db89cf4689cdf2a69557
+SHA1: 13c37c2da93edba704c81f1d1e6f65a97c57ff13
+SHA256: 1613b863847fb45b4a21487887e008ed2c7b0d3f4bb81389262ec300b96ee6d1
+Description: Transitional package for nvidia-libopencl1-340
+Description-md5: c0bc1edc3452a373d95e34ed168d26d3
+
+Package: nvidia-opencl-icd-331
+Architecture: armhf
+Version: 340.107-0ubuntu0.18.04.3
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/nvidia-opencl-icd-331_340.107-0ubuntu0.18.04.3_armhf.deb
+Size: 6732
+MD5sum: ab42eb2060a49a6d4e5cb33b81f78588
+SHA1: 4c69a65a2fb75ab57e17e303dc3c7bb47303a148
+SHA256: c77b61087ac6f01110ae47c0173a1a748c44086491e7cb9e137157033a35e7f2
+Description: Transitional package for nvidia-opencl-icd-340
+Description-md5: 5698808952d1d1454e2b98d80ab83d79
+
+Package: nvidia-opencl-icd-331-updates
+Architecture: armhf
+Version: 340.107-0ubuntu0.18.04.3
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/nvidia-opencl-icd-331-updates_340.107-0ubuntu0.18.04.3_armhf.deb
+Size: 6748
+MD5sum: 5a1b73701e21773ffe8b63c2b803718a
+SHA1: dc2902dfeeec3453c79d390eea5e00281b1f5721
+SHA256: 7056990a0babb89cbd4dff8dbbf7e7a817c42db55311cc0a78ce0bb8faab0195
+Description: Transitional package for nvidia-opencl-icd-340
+Description-md5: 5698808952d1d1454e2b98d80ab83d79
+
+Package: virtualbox-dkms
+Architecture: all
+Version: 5.2.32-dfsg-0~ubuntu18.04.1
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5326
+Provides: virtualbox-modules
+Depends: dkms (>= 2.1.0.0)
+Recommends: virtualbox (>= 5.2.32-dfsg-0~ubuntu18.04.1)
+Filename: pool/multiverse/v/virtualbox/virtualbox-dkms_5.2.32-dfsg-0~ubuntu18.04.1_all.deb
+Size: 662896
+MD5sum: 3df9b627cea105cde6c7eff1b66d8f25
+SHA1: 47136f0995731f273415b0e4595dfbe47fe55307
+SHA256: 73a2ef7f586009dfaa7e6ed38a30454d5e3671ef4ac2ebb3df27bf9fd1f22ab0
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - kernel module sources for dkms
+Description-md5: 4d42f0fe51c4a92f2aed5071f84524ae
+
+Package: virtualbox-ext-pack
+Architecture: all
+Version: 5.2.32-1~ubuntu18.04.1
+Priority: extra
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team  <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 126
+Pre-Depends: debconf
+Depends: virtualbox (<< 5.2.32-dfsg-z) | virtualbox-5.2, virtualbox (>= 5.2.32-dfsg-0~) | virtualbox-5.2, wget, debconf (>= 0.5) | debconf-2.0
+Filename: pool/multiverse/v/virtualbox-ext-pack/virtualbox-ext-pack_5.2.32-1~ubuntu18.04.1_all.deb
+Size: 10212
+MD5sum: 82b922cf0f4dd7f71bd774881ea5748e
+SHA1: f88d742dbf25ebf666eafb7b835b309d87ba2df3
+SHA256: 207d335feb6b1002910b5a50a61fdec099091dbf47be80d178aba8e38fd13741
+Homepage: https://www.virtualbox.org
+Description: extra capabilities for VirtualBox, downloader.
+Description-md5: d34299a0a1c7bf804958800947ea531c
+
+Package: virtualbox-guest-additions-iso
+Architecture: all
+Version: 5.2.32-1~ubuntu18.04.1
+Priority: extra
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team  <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 48480
+Recommends: virtualbox (>= 5.2.32)
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1
+Breaks: virtualbox-guest-additions (<< 4.0.6-1~)
+Replaces: virtualbox-guest-additions (<< 4.0.6-1~)
+Filename: pool/multiverse/v/virtualbox-guest-additions-iso/virtualbox-guest-additions-iso_5.2.32-1~ubuntu18.04.1_all.deb
+Size: 34031504
+MD5sum: e5c6cc0680aad98760c7a1379816556a
+SHA1: 39e75f57ba8020f81691ec0cde750ee05e51836b
+SHA256: ef608c1afba17a386bcebd0a6f5cb2c1abef339560df8bea3932da7c3ab66a68
+Homepage: https://www.virtualbox.org
+Description: guest additions iso image for VirtualBox
+Description-md5: 11a9eaac064138ec238f7c2ee4c018df
+
+Package: virtualbox-guest-dkms
+Architecture: all
+Version: 5.2.32-dfsg-0~ubuntu18.04.1
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6593
+Provides: virtualbox-guest-modules
+Depends: dkms (>= 2.1.0.0)
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-dkms_5.2.32-dfsg-0~ubuntu18.04.1_all.deb
+Size: 585568
+MD5sum: 398a0a7428708788583f6968be21fdd9
+SHA1: ad4e0530c80c7bee8ad2406751d886469d371f74
+SHA256: ec82392c497991bd5324dca18e9985cec9a611fe9298470d9b402cefecbd7ef7
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - guest addition module source for dkms
+Modaliases: vboxguest(pci:v000080EEd0000CAFEsv00000000sd00000000bc*sc*i*)
+Description-md5: e15ead9377a7f1e325ded819d3cfaf8b
+
+Package: virtualbox-guest-dkms-hwe
+Architecture: all
+Version: 5.2.32-dfsg-0~ubuntu18.04.1
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox-hwe
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6594
+Provides: virtualbox-guest-dkms, virtualbox-guest-modules
+Depends: dkms (>= 2.1.0.0)
+Conflicts: virtualbox-guest-dkms
+Replaces: virtualbox-guest-dkms
+Filename: pool/multiverse/v/virtualbox-hwe/virtualbox-guest-dkms-hwe_5.2.32-dfsg-0~ubuntu18.04.1_all.deb
+Size: 585692
+MD5sum: 5b5c25b68b7c10a8788491261b1c3aed
+SHA1: bedcb70e8c9bebf6d242e775241ef2fa6eb0a295
+SHA256: fe120effaab5b6798149f6a72fe96384810306011b4ccfe7ee73241f2799b050
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - guest addition module source for dkms
+Modaliases: vboxguest(pci:v000080EEd0000CAFEsv00000000sd00000000bc*sc*i*)
+Description-md5: 5da76c89e724bb98d7f67d251fa8de7d
+
+Package: virtualbox-guest-source
+Architecture: all
+Version: 5.2.32-dfsg-0~ubuntu18.04.1
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1058
+Depends: build-essential, bzip2, debhelper (>= 10), kbuild, module-assistant
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-source_5.2.32-dfsg-0~ubuntu18.04.1_all.deb
+Size: 986412
+MD5sum: f3982dd337d1bf51a784273a5efc2e27
+SHA1: 7d27cc69aad5ed451b5a727d281be9a239224367
+SHA256: e54926f08435a8d07b891d9b63d488225c9d607c8ef2b06a5f95c8c00b900553
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - guest addition module source
+Description-md5: 4e8ea50b26a8f2bc5f4e7ef943a32a06
+
+Package: virtualbox-guest-source-hwe
+Architecture: all
+Version: 5.2.32-dfsg-0~ubuntu18.04.1
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox-hwe
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1058
+Provides: virtualbox-guest-source
+Depends: build-essential, bzip2, debhelper (>= 10), kbuild, module-assistant
+Conflicts: virtualbox-guest-source
+Replaces: virtualbox-guest-source
+Filename: pool/multiverse/v/virtualbox-hwe/virtualbox-guest-source-hwe_5.2.32-dfsg-0~ubuntu18.04.1_all.deb
+Size: 986060
+MD5sum: 4262b9023aa7ef603b68137a8145bf2a
+SHA1: 32c8eafedcc78aa7c0fe1fa9d9805c8b217fb264
+SHA256: 61d692597a9d86f9f046627872e1c970f713d4112749842ff324535ef64a83fd
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - guest addition module source
+Description-md5: 4e8ea50b26a8f2bc5f4e7ef943a32a06
+
+Package: virtualbox-source
+Architecture: all
+Version: 5.2.32-dfsg-0~ubuntu18.04.1
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 873
+Depends: build-essential, bzip2, debhelper (>= 10), kbuild, module-assistant
+Recommends: virtualbox (>= 5.2.32-dfsg-0~ubuntu18.04.1)
+Filename: pool/multiverse/v/virtualbox/virtualbox-source_5.2.32-dfsg-0~ubuntu18.04.1_all.deb
+Size: 798700
+MD5sum: 785c1d784f6619dc809a71020b7f60ed
+SHA1: 4eb15f9ca1ce22b994e1cc099fae2e11b0a07b68
+SHA256: 6f7d230d89b047e4389a1889330521255067d12fca72d432819e8af6717c528d
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - kernel module source
+Description-md5: 53035ede584988f3413156cb7a5dbe8b
+

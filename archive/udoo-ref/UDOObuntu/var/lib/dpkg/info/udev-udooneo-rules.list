@@ -1,0 +1,12 @@
+/.
+/etc
+/etc/udev
+/etc/udev/rules.d
+/etc/udev/rules.d/50-udooneo-dev.rules
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/udev-udooneo-rules
+/usr/share/doc/udev-udooneo-rules/README.Debian
+/usr/share/doc/udev-udooneo-rules/changelog.gz
+/usr/share/doc/udev-udooneo-rules/copyright

@@ -1,0 +1,6 @@
+c80503b6620392d5cad660aec564f809  usr/include/vpu_io.h
+121137033460025b0a810bacda8d449d  usr/include/vpu_lib.h
+ecda232b4d6f617ca8f69aba64e0c556  usr/lib/libvpu.a
+d1843a4719ad5b1f83bdcf422c64b2f7  usr/lib/libvpu.so.4
+d4921a6d0dc9d6492a3e453e986f9a35  usr/share/doc/imx-vpu-13b/changelog.Debian.gz
+e2b5fd273fb9b51fac08f1ae6bd1a382  usr/share/doc/imx-vpu-13b/copyright

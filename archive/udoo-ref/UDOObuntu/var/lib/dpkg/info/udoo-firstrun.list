@@ -1,0 +1,13 @@
+/.
+/lib
+/lib/systemd
+/lib/systemd/system
+/lib/systemd/system/udoo-firstrun.service
+/usr
+/usr/sbin
+/usr/sbin/udoo-firstrun
+/usr/share
+/usr/share/doc
+/usr/share/doc/udoo-firstrun
+/usr/share/doc/udoo-firstrun/changelog.gz
+/usr/share/doc/udoo-firstrun/copyright

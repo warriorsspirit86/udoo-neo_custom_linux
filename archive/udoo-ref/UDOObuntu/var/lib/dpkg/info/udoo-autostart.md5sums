@@ -1,0 +1,4 @@
+2b1853fceace9e2850853867c1ce3481  lib/systemd/system/udoo-autostart.service
+34841e80b7f8c844a0905a4b5c3e4488  usr/bin/udoo-autostart
+9f2ce25f0330b4a0383f1d9a4ae9a88f  usr/share/doc/udoo-autostart/changelog.gz
+b02b6c49c266c35dd0f9cb94ee2e4e8c  usr/share/doc/udoo-autostart/copyright

@@ -1,0 +1,10 @@
+[Unit]
+Description=UDOO firstrun script
+
+[Service]
+ExecStart=/usr/sbin/udoo-firstrun
+SyslogIdentifier=udoo-firstrun
+
+[Install]
+WantedBy=local-fs.target
+

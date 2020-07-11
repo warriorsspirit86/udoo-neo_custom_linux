@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/include
+/usr/include/vpu_io.h
+/usr/include/vpu_lib.h
+/usr/lib
+/usr/lib/libvpu.a
+/usr/lib/libvpu.so.4
+/usr/share
+/usr/share/doc
+/usr/share/doc/imx-vpu-13b
+/usr/share/doc/imx-vpu-13b/changelog.Debian.gz
+/usr/share/doc/imx-vpu-13b/copyright
+/usr/lib/libvpu.so

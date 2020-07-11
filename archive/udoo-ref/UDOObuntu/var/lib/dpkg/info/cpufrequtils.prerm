@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installinit/11.1.6ubuntu1
+if [ -x "/etc/init.d/cpufrequtils" ] && [ "$1" = remove ]; then
+	invoke-rc.d cpufrequtils stop || exit 1
+fi
+# End automatically added section
+# Automatically added by dh_installinit/11.1.6ubuntu1
+if [ -x "/etc/init.d/loadcpufreq" ] && [ "$1" = remove ]; then
+	invoke-rc.d loadcpufreq stop || exit 1
+fi
+# End automatically added section

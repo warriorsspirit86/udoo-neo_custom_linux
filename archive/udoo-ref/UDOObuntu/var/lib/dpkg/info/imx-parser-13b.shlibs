@@ -1,0 +1,14 @@
+lib_ape_parser_arm11_elinux 3.1 imx-parser-13b
+lib_ape_parser_arm9_elinux 3.1 imx-parser-13b
+lib_avi_parser_arm11_elinux 3.1 imx-parser-13b
+lib_avi_parser_arm9_elinux 3.1 imx-parser-13b
+lib_flv_parser_arm11_elinux 3.1 imx-parser-13b
+lib_flv_parser_arm9_elinux 3.1 imx-parser-13b
+lib_mkv_parser_arm11_elinux 3.1 imx-parser-13b
+lib_mkv_parser_arm9_elinux 3.1 imx-parser-13b
+lib_mp4_parser_arm11_elinux 3.2 imx-parser-13b
+lib_mp4_parser_arm9_elinux 3.2 imx-parser-13b
+lib_mpg2_parser_arm11_elinux 3.1 imx-parser-13b
+lib_mpg2_parser_arm9_elinux 3.1 imx-parser-13b
+lib_ogg_parser_arm11_elinux 3.1 imx-parser-13b
+lib_ogg_parser_arm9_elinux 3.1 imx-parser-13b

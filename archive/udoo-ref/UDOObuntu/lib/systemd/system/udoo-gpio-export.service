@@ -1,0 +1,9 @@
+[Unit]
+Description=UDOO Sensors and GPIOs exporter
+
+[Service]
+ExecStart=/usr/bin/udoo-gpio-export
+SyslogIdentifier=udoo-gpio-export
+
+[Install]
+WantedBy=local-fs.target

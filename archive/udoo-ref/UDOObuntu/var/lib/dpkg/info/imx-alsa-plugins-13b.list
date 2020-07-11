@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/alsa-lib
+/usr/lib/alsa-lib/libasound_module_rate_asrcrate.la
+/usr/lib/alsa-lib/libasound_module_rate_asrcrate.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/imx-alsa-plugins
+/usr/share/doc/imx-alsa-plugins/asrcrate.txt
+/usr/share/doc/imx-alsa-plugins-13b
+/usr/share/doc/imx-alsa-plugins-13b/changelog.Debian.gz
+/usr/share/doc/imx-alsa-plugins-13b/copyright
+/usr/lib/alsa-lib/libasound_module_rate_asrcrate_fast.so

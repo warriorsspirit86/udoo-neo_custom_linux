@@ -1,0 +1,14 @@
+/.
+/lib
+/lib/systemd
+/lib/systemd/system
+/lib/systemd/system/udooneo-bluetooth.service
+/usr
+/usr/sbin
+/usr/sbin/uim
+/usr/sbin/uimlauncher
+/usr/share
+/usr/share/doc
+/usr/share/doc/udooneo-bluetooth
+/usr/share/doc/udooneo-bluetooth/changelog.gz
+/usr/share/doc/udooneo-bluetooth/copyright

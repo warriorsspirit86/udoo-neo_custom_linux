@@ -1,0 +1,311 @@
+Package: arduino
+Version: 1.6.5-r3ubuntu6-b
+Architecture: all
+Maintainer: UDOO Team <social@udoo.org>
+Installed-Size: 13562
+Depends: default-jre | java8-runtime | java9-runtime | java10-runtime | java11-runtime, libcommons-exec-java, libcommons-httpclient-java, libcommons-logging-java, libjmdns-java, libjna-java, libjsch-java, libjssc-java, arduino-core (= 1.6.5-r3ubuntu6-b), libastylej-jni
+Recommends: extra-xdg-menus, policykit-1, astyle
+Homepage: http://www.arduino.cc
+Priority: extra
+Section: electronics
+Filename: pool/main/a/arduino/arduino_1.6.5-r3ubuntu6-b_all.deb
+Size: 11999368
+SHA256: e49f05ad58e09e353c4dcc4e635703e54d13fe185fb146afe521bcc99dadc676
+SHA1: cd250d4aac07e7448160df7f6a1dea69c5818b4c
+MD5sum: 386d00322c63a62c8fd780346fa00706
+Description: AVR development board IDE and built-in libraries
+ Arduino is an open-source electronics prototyping platform based on
+ flexible, easy-to-use hardware and software. It's intended for artists,
+ designers, hobbyists, and anyone interested in creating interactive
+ objects or environments.
+ .
+ This package will install the integrated development environment that
+ allows for program writing, code verfication, compiling, and uploading
+ to the Arduino development board. Libraries and example code will also
+ be installed.
+
+Package: arduino-core
+Source: arduino
+Version: 1.6.5-r3ubuntu6-b
+Architecture: all
+Maintainer: UDOO Team <social@udoo.org>
+Installed-Size: 51116
+Depends: arduino (= 1.6.5-r3ubuntu6-b)
+Suggests: arduino-mk
+Homepage: http://www.arduino.cc
+Priority: extra
+Section: electronics
+Filename: pool/main/a/arduino/arduino-core_1.6.5-r3ubuntu6-b_all.deb
+Size: 11964232
+SHA256: 49b36ccdbfe311ab9b8ab76085bc7e32e6cab85b4fbcf8aa46dc13dea04a2177
+SHA1: 263e52a040f9e3e698107b00594c42d39e79b910
+MD5sum: 728a381c9d9b91c65d095748a68e3ddd
+Description: Code, examples, and libraries for the Arduino platform
+ Arduino is an open hardware microcontroller platform.  This package contains
+ the minimal set of tools to allow one to program an Arduino.  It also contains
+ examples and libraries. For a CLI, see the 'arduino-mk' package.
+ .
+ This package does not include the Java based Integrated Development
+ Environment, which can be found in the 'arduino' package.
+
+Package: arduino-core-avr
+Source: arduino
+Version: 1.6.5-r3ubuntu6-b
+Architecture: all
+Maintainer: UDOO Team <social@udoo.org>
+Installed-Size: 13281
+Depends: gcc-avr (>= 4.7.0), avrdude, gcc, avr-libc (>= 1.8.0), arduino (= 1.6.5-r3ubuntu6-b)
+Suggests: arduino-mk
+Homepage: http://www.arduino.cc
+Priority: extra
+Section: electronics
+Filename: pool/main/a/arduino/arduino-core-avr_1.6.5-r3ubuntu6-b_all.deb
+Size: 2607472
+SHA256: e4480c7a5f566fb38e194371c39d5be85f2f55133dee27e98b45905bdeb3d44c
+SHA1: 9e2818c745b65d33693994b8989778e6d2bb1680
+MD5sum: 7ef8a97fdff9d39f0d332f83ddd7090e
+Description: Code, examples, and libraries for the Arduino platform
+ Arduino is an open hardware microcontroller platform.  This package contains
+ the minimal set of tools to allow one to program an Arduino.  It also contains
+ examples and libraries. For a CLI, see the 'arduino-mk' package.
+ .
+ This package does not include the Java based Integrated Development
+ Environment, which can be found in the 'arduino' package.
+
+Package: arduino-core-sam
+Source: arduino
+Version: 1.6.5-r3ubuntu6-b
+Architecture: all
+Maintainer: UDOO Team <social@udoo.org>
+Installed-Size: 181109
+Depends: bossa-cli, gcc, gcc-arm-none-eabi (>= 4.9.3), arduino (= 1.6.5-r3ubuntu6-b)
+Suggests: arduino-mk
+Homepage: http://www.arduino.cc
+Priority: extra
+Section: electronics
+Filename: pool/main/a/arduino/arduino-core-sam_1.6.5-r3ubuntu6-b_all.deb
+Size: 6048468
+SHA256: dc7c1955443c2b6d93ddbaee37e94b17e23b4849e7a974c7191e1652eb0a0278
+SHA1: 408cbb0cca34ffc3cc3dc7b5e589064313d77cc4
+MD5sum: 07aa1d27f5226e65fa6ec5d329d7efc8
+Description: Code, examples, and libraries for the Arduino platform
+ Arduino is an open hardware microcontroller platform.  This package contains
+ the minimal set of tools to allow one to program an Arduino.  It also contains
+ examples and libraries. For a CLI, see the 'arduino-mk' package.
+ .
+ This package does not include the Java based Integrated Development
+ Environment, which can be found in the 'arduino' package.
+
+Package: arduino-core-udooneo
+Source: arduino-board-package
+Version: 1.7.0-mcc
+Architecture: armhf
+Maintainer: Ettore Chimenti <ek5.chimenti@gmail.com>
+Installed-Size: 8953
+Depends: arduino-core (>= 1.6.5), udooneo-m4uploader, gcc-arm-none-eabi (>= 4.9.3), libstdc++-arm-none-eabi-newlib (>= 4.9.2)
+Homepage: http://www.udoo.org
+Priority: optional
+Section: electronics
+Filename: pool/main/a/arduino-board-package/arduino-core-udooneo_1.7.0-mcc_armhf.deb
+Size: 1074588
+SHA256: 94983df826513d3f1641e74058c95b5c05e0e0ad89577a8e18949ba7c7ce43bd
+SHA1: 79080b33a6c9abd19ef7609614ffc4fcbec1fcdb
+MD5sum: a89164f5cc59ebaa8e6f11732be9333d
+Description: Code, examples, and libs for the UDOO Neo platform
+ Arduino is an open hardware microcontroller platform.  This package contains
+ the minimal set of tools to allow one to program a UDOO Neo.  It also contains
+ examples and libraries. For a CLI, see the 'arduino-mk' package.
+ .
+ This package does not include the Java based Integrated Development
+ Environment, which can be found in the 'arduino' package.
+
+Package: firmware-udooneo-wl1831
+Version: 2016.02-xenial
+Architecture: all
+Maintainer: UDOO Team <social@udoo.org>
+Installed-Size: 1080
+Priority: optional
+Section: non-free/kernel
+Filename: pool/main/f/firmware-udooneo-wl1831/firmware-udooneo-wl1831_2016.02-xenial_all.deb
+Size: 337374
+SHA256: b56b1363ede24595df9ab7bd1f137fc45cdbefbbca2478b1df655359b8036805
+SHA1: 08323aa407115cb45267e77a084caa8a649d1070
+MD5sum: e1b5e2ebe83e276f771c3ebb9f72b489
+Description: UDOO Neo TI-wl1831 WiFi/Bluetooth firmware files
+
+Package: linux-libc-dev
+Version: 4.1.15-g23c6c7b4d23a
+Provides: linux-kernel-headers
+Maintainer: UDOO Team <social@udoo.org>
+Architecture: armhf
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-libc-dev/linux-libc-dev_4.1.15-g23c6c7b4d23a_armhf.deb
+Size: 761600
+SHA256: 49cff8fc15ac43586a13a4f0e266156b7e2e81de47633971d639edd095f39932
+SHA1: 2662e906b62d141ba74ba1dd02a454bc79f1e334
+MD5sum: 43a032e34747dca8d57ac7c4f3ed7117
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-udooneo
+Version: 4.1.15-g23c6c7b4d23a
+Architecture: armhf
+Provides: linux-image, linux-image-2.6, linux-firmware
+Maintainer: UDOO Team <social@udoo.org>
+Installed-Size: 19500
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-udooneo/linux-udooneo_4.1.15-g23c6c7b4d23a_armhf.deb
+Size: 7775936
+SHA256: b23170d9741dadfb2f721c2538cf4edc2de43c38c407472fb0ef319047d4606c
+SHA1: 7f2a056c786eaf81bca4205e38f9136dfff94663
+MD5sum: 207fc8ea2d9355485f0a0bb2e1456751
+Description: The Linux Kernel, patched to run on UDOO boards
+
+Package: linux-udooneo-headers
+Version: 4.1.15-g23c6c7b4d23a
+Provides: linux-headers, linux-headers-2.6
+Maintainer: UDOO Team <social@udoo.org>
+Architecture: armhf
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-udooneo-headers/linux-udooneo-headers_4.1.15-g23c6c7b4d23a_armhf.deb
+Size: 6705688
+SHA256: f09bd4af3ab9138286f320785a4c610d0eafd71c737f30340953c00c463580fd
+SHA1: 1988e80cb4d4cf60d0f22952e1f520ad3d8d68db
+MD5sum: 5ab6dfb50e88373e2ba9e13b55a4d73f
+Description: Linux kernel headers for 4.1.15-g23c6c7b4d23a
+ This package provides kernel header files for KERNEL_VERSION
+ .
+ This is useful for people who need to build external modules
+
+Package: udev-udooneo-rules
+Version: 13-mcc
+Architecture: all
+Maintainer: UDOO Team <social@udoo.org>
+Installed-Size: 39
+Depends: linux-udooneo (>= 4.1.0)
+Homepage: http://www.udoo.org/
+Priority: extra
+Section: main
+Filename: pool/main/u/udev-udooneo-rules/udev-udooneo-rules_13-mcc_all.deb
+Size: 2640
+SHA256: 68fd15e06333fa41910e31e9c6027532ee2a24314877a071a54d6017acc00fe9
+SHA1: fcaa59215de6926059b38f806e46cfbf565459ad
+MD5sum: bc29cb3f437f9b559be3813b21edd42a
+Description: UDOO Neo udev rules
+ This package sets permission and group to UDOO Neo specific devices
+
+Package: udoo-web-docs-neo
+Version: 20160926
+Architecture: all
+Maintainer: Ettore Chimenti <ek5.chimenti@gmail.com>
+Installed-Size: 24934
+Depends: linux-udooneo
+Conflicts: udoo-web-docs
+Provides: udoo-web-docs
+Homepage: http://www.udoo.org
+Priority: optional
+Section: utils
+Filename: pool/main/u/udoo-web-docs-neo/udoo-web-docs-neo_20160926_all.deb
+Size: 22487274
+SHA256: 2840f39867bb2a12c70ecff98efb8c74296c9a4cc5721b8c3344c3bb35a9b5ec
+SHA1: 83c6da6f213d5e870483693603d9a51ac1e1dd6c
+MD5sum: 8ec44c2cf62802a8e0f5974b13e01870
+Description: UDOO Neo Web Docs
+ This is a static documentation precompiled by gh-pages from
+ https://github.com/UDOOboard/Neo-Docs
+
+Package: udoofota-client
+Source: udoofota
+Version: 1.2-1
+Architecture: armhf
+Maintainer: Ettore Chimenti <ek5.chimenti@gmail.com>
+Installed-Size: 48
+Depends: libc6 (>= 2.4)
+Homepage: http://www.udoo.org
+Priority: optional
+Section: web
+Filename: pool/main/u/udoofota/udoofota-client_1.2-1_armhf.deb
+Size: 5376
+SHA256: ecf63baf3b7193e6ab7f2d189588fc597ebed39dce85e3507407a1c67a1da332
+SHA1: d8dbda1bd308e57fb27cb74a37ce121b8ce5ae7f
+MD5sum: c55dc6b1ba0363c6e92c315b6e388d33
+Description: UDOO Firmware Over the Air Uploader -- Client
+ A little client-server protocol written in C over TCP/IP
+ to enable uploading via network for UDOO.
+
+Package: udoofota-serial
+Source: udoofota
+Version: 1.2-1
+Architecture: armhf
+Maintainer: Ettore Chimenti <ek5.chimenti@gmail.com>
+Installed-Size: 36
+Depends: sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16), socat
+Homepage: http://www.udoo.org
+Priority: optional
+Section: web
+Filename: pool/main/u/udoofota/udoofota-serial_1.2-1_armhf.deb
+Size: 2722
+SHA256: e5f558869ef372fd13a9473a9a18dc6b568303ab07a65cc3763994b28d8857e2
+SHA1: b509b9a47a8626601c5eeec4f00ce8d82ef3cc13
+MD5sum: ec5045a3a6ded6fd958772971f146977
+Description: UDOO Firmware Over the Air Uploader -- Serial
+ Simply starts a socat server to communicate with UDOO M4 core remotely.
+
+Package: udoofota-server
+Source: udoofota
+Version: 1.2-1
+Architecture: armhf
+Maintainer: Ettore Chimenti <ek5.chimenti@gmail.com>
+Installed-Size: 50
+Depends: libc6 (>= 2.4), sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16), udooneo-m4uploader
+Homepage: http://www.udoo.org
+Priority: optional
+Section: web
+Filename: pool/main/u/udoofota/udoofota-server_1.2-1_armhf.deb
+Size: 6024
+SHA256: 7ba6eb50f6db60384851995f2d7d85d45b2f5529561e70ac68f40774ead5cc1a
+SHA1: 69bc9ec253a48a4061720824170ebffbecd06b1e
+MD5sum: 642f4d406843cb637c5dd0dbb9ba95a1
+Description: UDOO Firmware Over the Air Uploader -- Server
+ A little client-server protocol written in C over TCP/IP
+ to enable uploading via network for UDOO.
+
+Package: udooneo-bluetooth
+Version: 1.4
+Architecture: armhf
+Maintainer: Francesco Montefoschi <francesco.monte@gmail.com>
+Installed-Size: 30
+Depends: libc6 (>= 2.7)
+Homepage: https://udoo.org
+Priority: optional
+Section: net
+Filename: pool/main/u/udooneo-bluetooth/udooneo-bluetooth_1.4_armhf.deb
+Size: 7452
+SHA256: 97fe3fbb930465e684b3bee4f09d7393dbd31bfd28e33487b8b5a76ec78585fa
+SHA1: c6a4fb6271fd60f3b6a607a0291334b54819f29e
+MD5sum: cc6b9ece3be58e24cb9a7149d275d7ec
+Description: UDOO Neo Bluetooth software stack
+
+Package: udooneo-m4uploader
+Version: 2.2.0
+Architecture: armhf
+Maintainer: Ettore Chimenti <ek5.chimenti@gmail.com>
+Installed-Size: 34
+Depends: libc6 (>= 2.4)
+Homepage: http://udoo.org
+Priority: optional
+Section: main
+Filename: pool/main/u/udooneo-m4uploader/udooneo-m4uploader_2.2.0_armhf.deb
+Size: 8440
+SHA256: 1096b1d9c7cf013c158528149c9d00e2b0926b906f37e76ec58e120180a342fa
+SHA1: f6f3a5e2d5bf846f0218e4778bc26dfa198fabe6
+MD5sum: 3121013de643dc56393fb02650d333f4
+Description: Load an MQX binary to UDOO Neo M4 Core
+ This application works as an uploader that loads compiled
+ binaries into UDOO Neo DDR RAM and runs it.
+ Also copy the last binary to /var/opt/m4 for next reboot.
+

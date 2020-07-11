@@ -1,0 +1,4 @@
+346727ad18e47388549820dd12c55f74  lib/systemd/system/udoo-gpio-export.service
+c0848b8fed120475627d8f83558ff486  usr/bin/udoo-gpio-export
+31e182725c1c1052006106ad8a43c039  usr/share/doc/udoo-gpio-export/changelog.gz
+38a890d8e681d7ef6db231dfbc7f168b  usr/share/doc/udoo-gpio-export/copyright

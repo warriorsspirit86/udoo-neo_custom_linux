@@ -1,0 +1,13 @@
+/.
+/lib
+/lib/systemd
+/lib/systemd/system
+/lib/systemd/system/udoo-autostart.service
+/usr
+/usr/bin
+/usr/bin/udoo-autostart
+/usr/share
+/usr/share/doc
+/usr/share/doc/udoo-autostart
+/usr/share/doc/udoo-autostart/copyright
+/usr/share/doc/udoo-autostart/changelog.gz

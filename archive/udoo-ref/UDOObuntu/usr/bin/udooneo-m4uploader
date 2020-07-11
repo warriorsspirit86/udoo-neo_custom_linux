@@ -1,0 +1,88 @@
+#!/bin/bash
+#
+# udooneo-m4uploader.sh frontend for load and startup M4 core
+#
+# Copyright (C) 2015-2016 Giuseppe Pagano <giuseppe.pagano@seco.com>
+# Copyright (C) 2015-2016 Ettore Chimenti <ek5.chimenti@gmail.com>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+#
+
+# Setting Environment
+
+VERSION=2.0
+GROUP=dialout
+FW_LAST=/var/opt/m4/m4last.fw
+CMDLINE=/proc/cmdline
+M4DTS='/proc/device-tree/reserved-memory/m4@0x84000000/'
+
+usage() {
+  cat << EOF
+Usage: $0 <command or firmware to load>
+
+UDOO Neo MQX Uploader Frontend
+Valid commands:
+    -r, --reset     Reset M4, simply reloading last sketch
+    -v, --version   Show version
+
+EOF
+}
+
+version() {
+  echo "v$VERSION"
+}
+
+error() {
+  local E_TEXT=$1
+  local E_CODE=$2
+
+  [[ -z $E_CODE ]] && E_CODE=1
+  [[ -z $E_TEXT ]] || echo $E_TEXT >&2
+  exit $E_CODE
+}
+
+# invalid arguments
+if [ $# -ne 1 ] ; then
+	usage
+	exit 1
+fi
+
+if [ ! -d $M4DTS ] ; then
+	error "WARNING: M4 is disabled via device-tree, cannot load firmware!" 0
+fi
+
+case $1 in
+	-h|--help) usage && exit 0;;
+	--version) version %% exit 0;;
+	-r|--reset) FW_INPUT=$FW_LAST;;
+	*) FW_INPUT=$1;;
+esac
+
+if [ ! -f $FW_INPUT ] ; then
+	error "WARNING: file $FW_INPUT does not exits!" 0
+fi
+
+mqx_upload_on_m4SoloX "$FW_INPUT" || error "flash: uploading input firmware failed" 2
+
+#copy binary for next reboot
+if [[ $FW_INPUT != $FW_LAST ]]
+then
+  install -m 664 -g "$GROUP" "$FW_INPUT" "$FW_LAST" ||
+    error "Error copying last bin" 3
+  sync
+fi
+
+exit 0
+

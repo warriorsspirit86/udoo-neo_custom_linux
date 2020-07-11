@@ -1,0 +1,13 @@
+/.
+/lib
+/lib/systemd
+/lib/systemd/system
+/lib/systemd/system/udoo-gpio-export.service
+/usr
+/usr/bin
+/usr/bin/udoo-gpio-export
+/usr/share
+/usr/share/doc
+/usr/share/doc/udoo-gpio-export
+/usr/share/doc/udoo-gpio-export/changelog.gz
+/usr/share/doc/udoo-gpio-export/copyright

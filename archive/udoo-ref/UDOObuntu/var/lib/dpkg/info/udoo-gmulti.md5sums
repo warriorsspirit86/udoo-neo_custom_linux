@@ -1,0 +1,4 @@
+d581db968b8a1e5fc303afa5387b3af5  lib/systemd/system/udoo-gmulti.service
+f52762c58a70160f0d62f82206bb00cc  usr/bin/udoo-gmulti
+5af3f59fbc0aa14178b60ae1d7151283  usr/share/doc/udoo-gmulti/changelog.gz
+8179bbe754f5465d5eb926ac7353b29a  usr/share/doc/udoo-gmulti/copyright

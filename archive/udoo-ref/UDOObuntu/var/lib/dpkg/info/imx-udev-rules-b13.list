@@ -1,0 +1,11 @@
+/.
+/etc
+/etc/udev
+/etc/udev/rules.d
+/etc/udev/rules.d/10-imx.rules
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/imx-udev-rules-b13
+/usr/share/doc/imx-udev-rules-b13/changelog.Debian.gz
+/usr/share/doc/imx-udev-rules-b13/copyright

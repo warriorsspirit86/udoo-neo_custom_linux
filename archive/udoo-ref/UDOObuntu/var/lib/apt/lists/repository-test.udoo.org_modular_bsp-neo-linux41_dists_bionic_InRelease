@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: bionic
+Date: Sun, 22 Sep 2019 10:21:13 UTC
+Architectures: armhf
+Components: main
+MD5Sum:
+ 8c990508e8e8a86606fbf3e0c72fa456 12037 main/binary-armhf/Packages
+ 0a06407e11600d32c673250153b3a0ff 3862 main/binary-armhf/Packages.gz
+ 12961a515ba3ee17d1840d76faa90087 36 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 92f9b0ec8b2656847b612632542f1735 37 main/source/Release
+SHA1:
+ 5db7b91243f21207c40ba82f87f6ffbfd2946a86 12037 main/binary-armhf/Packages
+ 67a43cdf58c57a59b7d536032e7f294d608c9037 3862 main/binary-armhf/Packages.gz
+ 4922cd1d17e2d85529687db8f44c58948bc42f94 36 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 6bf4af37ca3d5dec33f6438d83b5c1483de0833a 37 main/source/Release
+SHA256:
+ b2afc6e8d629a367f9803ffc5a2d0587015535849cbcc34b347fa51b834b1c76 12037 main/binary-armhf/Packages
+ c8bc37dbed08544e2605bdc80651d9d83c23e63f609c0b9371e3bc3526bab12c 3862 main/binary-armhf/Packages.gz
+ adaec1ced8009abfb20fa51310087da3b7332d5f3b2c5edfda188ddffe634677 36 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 4e2108e8de58972a48b94535ab5f7e553edddf6b18462bf8ba44584b1161a0d9 37 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEvDqqt2L6HA3omRXfpdRAj7bqCsoFAl2HSxkACgkQpdRAj7bq
+CsrXjg//eWDFp7ABuhm9EqwNyGNR0mtL/j/D6zxudMV4ryrT4RLguxl7GtUX9Qxk
+5Cn9ThdnFS1AI+OS2aSNIrJm57v6+EVyZTGD8FdBAZwwAZCtbBvuW0DiXhTGQ+AK
+esOZVaQlrbp7jc6d7wBgLEVRx4JV4D2kBuKaLBMr/A9VCXYN1L9kZsd40OOEbvnq
+uSfdsxNKdfprjPr4dCM/SE4+9MKzFzgsUO9iaSZJvE3pqX0RHcnrxhyMCKg7pnnK
+yIaG80HdZiapQ+RC3x7y4tLp7vBTxDoVJhJG8PuhluvSUjuAMlQ4vmatfnskZrtG
+9Z5e92l5vgMCyXs3UQr5r7+8lexH91JLU9RwWnswS8YA5qSInD2jlRCTG1N6cEVT
+IsmYDxXJTXqFRNrM3oOg02S5lyaLF+ulrvI1exywNMMMtvHWJRekxP6v3XBuaffW
+fqZy5Ekfyh385nNd5UeeF8c0s4mPPBHIliu+NEJW/Y5XR7bZRqy4co5v7S5lCzzs
+sddPY5uawmnXrbPcVoi877FRIo3XRPniVRRCZZUT9IXQt4rhW0GVH4exNGeunWja
+UHhnaplfeP7cnwU4FlcYfjIEfyob/c/3090dPMGqRXoTCVNlRdIR2S4QDn9blZRE
+apInMaJ6J3oHC0DKWjvgY6IiTPfFy0/x1PLGKgoYKrLzjWlIbIE=
+=l6mO
+-----END PGP SIGNATURE-----

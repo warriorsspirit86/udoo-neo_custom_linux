@@ -1,0 +1,1724 @@
+Package: eglinfo-fb
+Source: eglinfo
+Version: 1.0.0-1ubuntu9
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 60
+Homepage: https://github.com/dv1/eglinfo.git
+Priority: optional
+Section: utils
+Filename: pool/main/e/eglinfo/eglinfo-fb_1.0.0-1ubuntu9_armhf.deb
+Size: 22652
+SHA256: cd1aafb346ec81248c9a480caa6c302c12e20b71ad40a29d4849cf970f67862c
+SHA1: a2f5a82f9a413cda707c20a590903cca03740411
+MD5sum: 80edac7ea70b01e0f4fd9e44598208c8
+Description: Utility for printing information EGL
+ Utility for printing information EGL and its client APIs (OpenGL, OpenGL ES, OpenVG)
+
+Package: eglinfo-wl
+Source: eglinfo
+Version: 1.0.0-1ubuntu9
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 64
+Homepage: https://github.com/dv1/eglinfo.git
+Priority: optional
+Section: utils
+Filename: pool/main/e/eglinfo/eglinfo-wl_1.0.0-1ubuntu9_armhf.deb
+Size: 23340
+SHA256: a4b340492711d543b74c144a38ce9b3c98ef2684510e71c2a786b9b1a96c43b6
+SHA1: d67288331490cca82150486394dc826cf084c273
+MD5sum: 1b08f807b4537eb67553d4e620a1ea53
+Description: Utility for printing information EGL
+ Utility for printing information EGL and its client APIs (OpenGL, OpenGL ES, OpenVG)
+
+Package: eglinfo-x11
+Source: eglinfo
+Version: 1.0.0-1ubuntu9
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 64
+Homepage: https://github.com/dv1/eglinfo.git
+Priority: optional
+Section: utils
+Filename: pool/main/e/eglinfo/eglinfo-x11_1.0.0-1ubuntu9_armhf.deb
+Size: 22876
+SHA256: 93373427f998625048b095bb236ef66e54ede590a3a81682a14e7c364f459ae6
+SHA1: d57dc6d3589f614abb6080b1bc05fe8dd485baf9
+MD5sum: a19fa424b744a6b7daffc9303b0b1fb2
+Description: Utility for printing information EGL
+ Utility for printing information EGL and its client APIs (OpenGL, OpenGL ES, OpenVG)
+
+Package: firmware-imx-13b
+Source: imx-vpu-cnm-13b
+Version: 6.0-1boundary9
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 1473
+Homepage: http://www.boundarydevices.com/
+Priority: optional
+Section: restricted/base
+Filename: pool/main/i/imx-vpu-cnm-13b/firmware-imx-13b_6.0-1boundary9_armhf.deb
+Size: 166312
+SHA256: a5b047d0d6b83ce20dfdb08907614d13b4484b1072dd697dc571a9c5d3ceecc9
+SHA1: f712048893fde26f92df578a2a05606cd97e4638
+MD5sum: 99ac6056ee524ded1e08b4a179b53e59
+Description: NXP IMX firmware such as for the VPU
+
+Package: imx-alsa-plugins-13b
+Source: imx-vpu-cnm-13b
+Version: 6.0-1boundary9
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 51
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.4)
+Homepage: http://www.boundarydevices.com/
+Priority: optional
+Section: libs
+Filename: pool/main/i/imx-vpu-cnm-13b/imx-alsa-plugins-13b_6.0-1boundary9_armhf.deb
+Size: 14616
+SHA256: 582355360d3af46ea8fddc2bc18abcc86936e8d3e097228a8c1f99c14999ee3e
+SHA1: da7ac19f8e13090ebc0d5519a0e441a10da144d5
+MD5sum: a65f4f333850f81dccadee2696bc9862
+Description: i.MX alsa-lib plugins
+
+Package: imx-codec-13b
+Source: imx-vpu-cnm-13b
+Version: 6.0-1boundary9
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 10838
+Homepage: http://www.boundarydevices.com/
+Priority: optional
+Section: restricted/multimedia
+Filename: pool/main/i/imx-vpu-cnm-13b/imx-codec-13b_6.0-1boundary9_armhf.deb
+Size: 6760816
+SHA256: 7b68bb613b1cf053029c02da884b1504ede7e86bbb85daad0fb8f2596c2965f4
+SHA1: 928f52fa7331f60d0fb096c21a60e43de8ccf421
+MD5sum: aabfbec3fd7bd2b2c8402d5ba00b0f19
+Description: NXP Multimedia codec libs
+
+Package: imx-fb-default-b13
+Source: imx-gpu-viv-b13-all
+Version: 6.2.2.p0-5
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 38
+Depends: imx-gpu-viv-b13-all
+Conflicts: imx-none-default-b13, imx-wl-default-b13, imx-x11-default-b13
+Replaces: imx-none-default-b13, imx-wl-default-b13, imx-x11-default-b13
+Homepage: http://www.boundarydevices.com/
+Priority: extra
+Section: libs
+Filename: pool/main/i/imx-gpu-viv-b13-all/imx-fb-default-b13_6.2.2.p0-5_armhf.deb
+Size: 10344
+SHA256: 0943030e2854d4ea535fa7b0008597392a9c6df63020f7cb7269e8ab3930e766
+SHA1: 76de4d830a60934da53ab0c59a307113a0ed97c8
+MD5sum: 69bb8ac7e3d71c2eea8baad7d882a1af
+Description: Enables imx-gpu-viv framebuffer backend
+
+Package: imx-gpu-viv-b13-all
+Version: 6.2.2.p0-5
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 27587
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.3), libffi6 (>= 3.0.4), libgcc1 (>= 1:3.5), libglapi-mesa, libstdc++6 (>= 5.2), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0), libx11-6 (>= 2:1.4.99.1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3
+Provides: vivante-opencl-dev
+Homepage: http://www.boundarydevices.com/
+Priority: extra
+Section: libs
+Filename: pool/main/i/imx-gpu-viv-b13-all/imx-gpu-viv-b13-all_6.2.2.p0-5_armhf.deb
+Size: 4775852
+SHA256: 3c86ccf1066f20256c1fe57ebbe48547be480741091ae733fd283e3dc4682063
+SHA1: fec26657788fd51dee1467166f117455166d46ff
+MD5sum: b220f601c0a1efca9f8a7fe90900c603
+Description: GPU driver libraries and developer files for i.MX6, (all fb, wl and x11 backends)
+
+Package: imx-lib-13b
+Source: imx-vpu-cnm-13b
+Version: 6.0-1boundary9
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 128
+Depends: libc6 (>= 2.4)
+Homepage: http://www.boundarydevices.com/
+Priority: optional
+Section: libs
+Filename: pool/main/i/imx-vpu-cnm-13b/imx-lib-13b_6.0-1boundary9_armhf.deb
+Size: 28088
+SHA256: 43cb356103613230dd4e69cd9d3196be5952d58360f2683d101749a0ce794f9a
+SHA1: 468989c6439bce8eabd1fc34ce53c2b311263077
+MD5sum: 2007e3d9bb41cdb6c5cc1470cab03501
+Description: Platform specific libraries for imx platform
+
+Package: imx-none-default-b13
+Source: imx-gpu-viv-b13-all
+Version: 6.2.2.p0-5
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 38
+Depends: imx-gpu-viv-b13-all
+Conflicts: imx-fb-default-b13, imx-wl-default-b13, imx-x11-default-b13
+Replaces: imx-fb-default-b13, imx-wl-default-b13, imx-x11-default-b13
+Homepage: http://www.boundarydevices.com/
+Priority: extra
+Section: libs
+Filename: pool/main/i/imx-gpu-viv-b13-all/imx-none-default-b13_6.2.2.p0-5_armhf.deb
+Size: 10340
+SHA256: cf323ac11ad485d590eb7c99c4ed6f66c9b4f7a621aea478801b798deccd3faf
+SHA1: 1237ba65fa4799552ea56af526afc28d9f8e9efe
+MD5sum: f4c2d96d08f4580094f1c15c3ef50c87
+Description: Disables imx-gpu-viv backends
+
+Package: imx-parser-13b
+Source: imx-vpu-cnm-13b
+Version: 6.0-1boundary9
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 1620
+Depends: libc6 (>= 2.7)
+Homepage: http://www.boundarydevices.com/
+Priority: optional
+Section: restricted/multimedia
+Filename: pool/main/i/imx-vpu-cnm-13b/imx-parser-13b_6.0-1boundary9_armhf.deb
+Size: 570732
+SHA256: 0aafa423044ab782806d17e880abe3b6f9a7b791d79e9026b8097f2db42f258f
+SHA1: c56fd18c7653f9a1cbeb807f3159e450274e55c6
+MD5sum: 14cf7f1ce88a7abc53ca02e14bd3730c
+Description: NXP Multimedia parser libs
+
+Package: imx-udev-rules-b13
+Source: imx-gpu-viv-b13-all
+Version: 6.2.2.p0-5
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 39
+Conflicts: udev-fsl-rules
+Replaces: udev-fsl-rules
+Homepage: http://www.boundarydevices.com/
+Priority: extra
+Section: base
+Filename: pool/main/i/imx-gpu-viv-b13-all/imx-udev-rules-b13_6.2.2.p0-5_armhf.deb
+Size: 10148
+SHA256: eac2f013af53e5a633a4e0871203e449edbc213e73a39c04bb98dd18be3d6732
+SHA1: 8a78317838ecece38aa89f874ea4b000496b3fbd
+MD5sum: 87617afd623c448d220c2e4fb93f10cf
+Description: NXP udev rules
+
+Package: imx-vpu-13b
+Source: imx-vpu-cnm-13b
+Version: 6.0-1boundary9
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 237
+Depends: libc6 (>= 2.12)
+Homepage: http://www.boundarydevices.com/
+Priority: optional
+Section: libs
+Filename: pool/main/i/imx-vpu-cnm-13b/imx-vpu-13b_6.0-1boundary9_armhf.deb
+Size: 67072
+SHA256: 907b78f5fc0ae40847ad328da0e53fbf10971ba517d33a4d57b515b66d9474e8
+SHA1: e274a4dee68bac4a190059031cf0d4916dfc7b54
+MD5sum: cd4300d5ac3ef4226bd6e6402564b4f6
+Description: NXP VPU library
+
+Package: imx-vpu-cnm-13b
+Version: 6.0-1boundary9
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 33
+Depends: imx-alsa-plugins-13b (= 6.0-1boundary9), imx-lib-13b (= 6.0-1boundary9), imx-vpu-13b (= 6.0-1boundary9), imx-codec-13b (= 6.0-1boundary9), imx-parser-13b (= 6.0-1boundary9), imx-vpuwrap-13b (= 6.0-1boundary9), firmware-imx-13b (= 6.0-1boundary9)
+Homepage: http://www.boundarydevices.com/
+Priority: optional
+Section: metapackages
+Filename: pool/main/i/imx-vpu-cnm-13b/imx-vpu-cnm-13b_6.0-1boundary9_armhf.deb
+Size: 9704
+SHA256: 8a6602bc1dfa9143c75513a73d274db994b2219581526f9082c131b7b01bce91
+SHA1: 190989eddeea02a47ed869088f25d53746f9cfec
+MD5sum: 3b43b9660aca0474fc21538fed081ba6
+Description: VPU acceleration libraries for imx6 excluding imx-gst1.0-plugin
+
+Package: imx-vpuwrap-13b
+Source: imx-vpu-cnm-13b
+Version: 6.0-1boundary9
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 1301
+Depends: imx-vpu-13b, libc6 (>= 2.4)
+Homepage: http://www.boundarydevices.com/
+Priority: optional
+Section: restricted/multimedia
+Filename: pool/main/i/imx-vpu-cnm-13b/imx-vpuwrap-13b_6.0-1boundary9_armhf.deb
+Size: 409848
+SHA256: baaa7ed4b744f8ee6f09eacd2c679399735ed6c04e676b790eb8a502b6c62778
+SHA1: 905ee3d52b2183b71de00084551f6157744803f1
+MD5sum: 2d405a0b1f0c0ccf39bad25ece377d07
+Description: NXP Multimedia VPU wrapper
+
+Package: imx-wl-default-b13
+Source: imx-gpu-viv-b13-all
+Version: 6.2.2.p0-5
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 38
+Depends: imx-gpu-viv-b13-all
+Conflicts: imx-fb-default-b13, imx-none-default-b13, imx-x11-default-b13
+Replaces: imx-fb-default-b13, imx-none-default-b13, imx-x11-default-b13
+Homepage: http://www.boundarydevices.com/
+Priority: extra
+Section: libs
+Filename: pool/main/i/imx-gpu-viv-b13-all/imx-wl-default-b13_6.2.2.p0-5_armhf.deb
+Size: 10332
+SHA256: cefb301a8c5abee2c8173be40639d9282d27a02f81bcf82f7f726e64db74441c
+SHA1: 84a223244c27799f3d9f3d5752c57b530e2aceff
+MD5sum: f50c8fc84ecd368c4c73c6e40a8cb0df
+Description: Enables imx-gpu-viv wayland backend
+
+Package: imx-x11-default-b13
+Source: imx-gpu-viv-b13-all
+Version: 6.2.2.p0-5
+Architecture: armhf
+Maintainer: Laci Tele <laci@boundarydevices.com>
+Installed-Size: 39
+Depends: imx-gpu-viv-b13-all
+Conflicts: imx-fb-default-b13, imx-none-default-b13, imx-wl-default-b13
+Replaces: imx-fb-default-b13, imx-none-default-b13, imx-wl-default-b13
+Homepage: http://www.boundarydevices.com/
+Priority: extra
+Section: libs
+Filename: pool/main/i/imx-gpu-viv-b13-all/imx-x11-default-b13_6.2.2.p0-5_armhf.deb
+Size: 10532
+SHA256: 2e9687281d163603c8295570f30a80cdd072cefdd3f6e9d408dfe8a6b749549e
+SHA1: f67d2a66034f6ef9d1d51f665a12c4fa43140309
+MD5sum: d6fbff50017b626ac49be3ee0ff679ce
+Description: Enables imx-gpu-viv X11 backend
+
+Package: libd3dadapter9-mesa
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 4337
+Depends: libc6 (>= 2.27), libdrm-amdgpu1 (>= 2.4.90), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.75), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.5), libllvm7 (>= 1:7~svn298832-1~), libsensors4 (>= 1:3.0.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4), libudev1
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libd3dadapter9-mesa_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 2046952
+SHA256: f35a269a022f74d8777c5c126ffc6ecfb47ad5649ff0a950fdccd5f75c074440
+SHA1: 3ff68a84e7673a8a370ba36d12a5eef314f9f40c
+MD5sum: 5930ddaf3d17a94b7438e98951ca703a
+Description: state-tracker for Direct3D9
+ This package contains a Gallium3D state tracker that implements the Direct3D9
+ API.  Combined with the gallium-nine branch of Wine, programs using D3D9 can
+ achieve native (or better) graphics performance.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libd3dadapter9-mesa-dev
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 92
+Depends: libd3dadapter9-mesa (= 18.2.8-1ubuntu0~18.04.2), libudev1
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mesa/libd3dadapter9-mesa-dev_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 57612
+SHA256: 62a3cbcc5a78d4d15da72e6a1a7d86d2575f0ea7b38e04a1f889442bb10cdf2b
+SHA1: 1e56295abec8c178aa995c9f7893a8c707e9795d
+MD5sum: 617555288163f8387c3a1c2ee5a48b77
+Description: state-tracker for Direct3D9 -- development files
+ This package contains a Gallium3D state tracker that implements the Direct3D9
+ API.  Combined with the gallium-nine branch of Wine, programs using D3D9 can
+ achieve native (or better) graphics performance.
+ .
+ Development files
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libdrm-amdgpu1
+Source: libdrm
+Version: 2.4.95-2~18.04.1
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 66
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.89)
+Multi-Arch: same
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm-amdgpu1_2.4.95-2~18.04.1_armhf.deb
+Size: 25760
+SHA256: 4678277e99081960f081e812ddf4fda82c879a0d6cf92e5f9e2a7732474cb62c
+SHA1: 44cc52483ce8359a2ff2a08552e6d2332133f697
+MD5sum: 006724f3a109e9a95db17b4b3afe354a
+Description: Userspace interface to amdgpu-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-common
+Source: libdrm
+Version: 2.4.95-2~18.04.1
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 648
+Multi-Arch: foreign
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm-common_2.4.95-2~18.04.1_all.deb
+Size: 177544
+SHA256: cddde79092a23282f8d0f5ffae99ed19c74e53aa14f9b96aa561e4285acf41b9
+SHA1: f2dbc14612bf2f3a58652317c468a6e61efdf2a6
+MD5sum: 4e3c6261e22159162876271bf8b916bd
+Description: Userspace interface to kernel DRM services -- common files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides common files for libdrm.
+
+Package: libdrm-dev
+Source: libdrm
+Version: 2.4.95-2~18.04.1
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 706
+Depends: libdrm2 (= 2.4.95-2~18.04.1), libdrm-radeon1 (= 2.4.95-2~18.04.1), libdrm-nouveau2 (= 2.4.95-2~18.04.1), libdrm-amdgpu1 (= 2.4.95-2~18.04.1), libdrm-omap1 (= 2.4.95-2~18.04.1), libdrm-freedreno1 (= 2.4.95-2~18.04.1), libdrm-exynos1 (= 2.4.95-2~18.04.1), libdrm-tegra0 (= 2.4.95-2~18.04.1), libdrm-etnaviv1 (= 2.4.95-2~18.04.1)
+Multi-Arch: same
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libd/libdrm/libdrm-dev_2.4.95-2~18.04.1_armhf.deb
+Size: 142260
+SHA256: 325dfe5da68bec77b94bbbd84badf65028255d2037558455b8b57c85658ad66e
+SHA1: 6ab5734d4c580b60976712995a97097e53d659bc
+MD5sum: a3f16b56efa5d8918dfebc65289da676
+Description: Userspace interface to kernel DRM services -- development files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the development environment for libdrm.
+
+Package: libdrm-etnaviv1
+Source: libdrm
+Version: 2.4.95-2~18.04.1
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 52
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.38)
+Multi-Arch: same
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm-etnaviv1_2.4.95-2~18.04.1_armhf.deb
+Size: 19940
+SHA256: 15363036711e97e1c0d29139d132a7c21fb2bd75fdf7bf800f7c9c9ead0056ee
+SHA1: 0d8ad4f956eb111ac7de6e782d0547edb4ae4beb
+MD5sum: e177fcc5a99566944de0f88b02db506d
+Description: Userspace interface to etnaviv-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-exynos1
+Source: libdrm
+Version: 2.4.95-2~18.04.1
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 52
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.38)
+Multi-Arch: same
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm-exynos1_2.4.95-2~18.04.1_armhf.deb
+Size: 19124
+SHA256: 8ba9e3680e355dcda2a48276f4dc09fc4e4a4dc2cfdc42e09782bd3b159b7da3
+SHA1: 4d33eac1a164f0720e863caca52ec6d4c66ecbb9
+MD5sum: c2f6c9b53a1cec7bac6ab162e7bdceef
+Description: Userspace interface to exynos-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-freedreno1
+Source: libdrm
+Version: 2.4.95-2~18.04.1
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 65
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.38)
+Multi-Arch: same
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm-freedreno1_2.4.95-2~18.04.1_armhf.deb
+Size: 26576
+SHA256: 1e5749c12afe1f2e0bf716db00ec1d73e60baa30865ff2fb28c5de59707b3436
+SHA1: a8da9b80f137fd21c0abdf1197dc5f17d3be0dc6
+MD5sum: 194299f1286dfe62ab0ac068dfca0dfc
+Description: Userspace interface to msm/kgsl kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-nouveau2
+Source: libdrm
+Version: 2.4.95-2~18.04.1
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 64
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.38)
+Multi-Arch: same
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm-nouveau2_2.4.95-2~18.04.1_armhf.deb
+Size: 24380
+SHA256: 146b1caf6f33ea88c529c288a513417e256008d53774e15cdfd3a98d12715de2
+SHA1: 88f9f40e8f86ef24c994316acf18255ad494a954
+MD5sum: b14f49c4c597272eab13149318c04412
+Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-omap1
+Source: libdrm
+Version: 2.4.95-2~18.04.1
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 48
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.3)
+Multi-Arch: same
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm-omap1_2.4.95-2~18.04.1_armhf.deb
+Size: 16140
+SHA256: 3aa64f4c565838c6c21daa72ddf797e44a95bed936789a4d589f615c68139f4d
+SHA1: 0f40fa77eefb3bf12201d7d5122fdf1ce32cff11
+MD5sum: 92f5acdbb2eccd576629f9309aa99b0a
+Description: Userspace interface to omap-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-radeon1
+Source: libdrm
+Version: 2.4.95-2~18.04.1
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 69
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.38)
+Multi-Arch: same
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm-radeon1_2.4.95-2~18.04.1_armhf.deb
+Size: 29288
+SHA256: 8f81e8f104832a27ddc116e94a8956d091c8a5b09c9457a61c4c1889757611b4
+SHA1: e5fc38dc9d8799dec2e6df6e5ced23953ac05a13
+MD5sum: 08fd5b971ec0185f25d4076ea0656e0f
+Description: Userspace interface to radeon-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm-tegra0
+Source: libdrm
+Version: 2.4.95-2~18.04.1
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 44
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.3)
+Multi-Arch: same
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm-tegra0_2.4.95-2~18.04.1_armhf.deb
+Size: 15476
+SHA256: eeff36ff78b89805d054563c492747e1f71b513b6d9fe3f7b8e094a0ed8c776e
+SHA1: 3d97ffa321fbd239713f556070bb5e05acf47299
+MD5sum: 7e041209c1cf1990ab74775a498666c6
+Description: Userspace interface to tegra-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libdrm2
+Source: libdrm
+Version: 2.4.95-2~18.04.1
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 86
+Depends: libdrm-common (>= 2.4.95-2~18.04.1), libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm2_2.4.95-2~18.04.1_armhf.deb
+Size: 35832
+SHA256: b4635380947d4791829cbf869a88817a46255796c8cf4f8d06dee27c464d4d6e
+SHA1: 8ef4fa7de1db40ebcc2c01ff0a1df662bc814601
+MD5sum: 14bb6e6e65251be37e7ccf61f5da512e
+Description: Userspace interface to kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the runtime environment for libdrm.
+
+Package: libegl-mesa0
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 217
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.75), libexpat1 (>= 2.0.1), libgbm1 (= 18.2.8-1ubuntu0~18.04.2), libglapi-mesa, libwayland-client0 (>= 1.15.0), libwayland-server0 (>= 1.15.0), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, zlib1g (>= 1:1.1.4)
+Breaks: nvidia-304, nvidia-340 (<= 340.106-0ubuntu1), nvidia-384 (<< 390.25)
+Provides: libegl-vendor
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libegl-mesa0_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 120996
+SHA256: aaadce8a2fe865d2aabe26c9f5c22ddb1560485a9eec2597e81b0b9c9775f985
+SHA1: f7c0b1d17839174887c9baad3dfe9d8eb82b8ffe
+MD5sum: 4a48378522c5935973039ac996a0368c
+Description: free implementation of the EGL API -- Mesa vendor library
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES.
+ .
+ This package contains the Mesa vendor library for EGL.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libegl1
+Source: libglvnd
+Version: 1.0.0-3ubuntu2.3
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 77
+Depends: libc6 (>= 2.8), libglvnd0 (= 1.0.0-3ubuntu2.3), libegl-mesa0
+Breaks: libegl1-mesa (<< 18.0.5-0ubuntu0~18.04), libglvnd0 (<< 0.2.999+git20170201-1)
+Replaces: libegl1-mesa (<< 18.0.5-0ubuntu0~18.04), libglvnd0 (<< 0.2.999+git20170201-1)
+Multi-Arch: same
+Homepage: https://github.com/NVIDIA/libglvnd
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglvnd/libegl1_1.0.0-3ubuntu2.3_armhf.deb
+Size: 28756
+SHA256: 3d85ef1cb18f70dc09cdd85b585b7e0057095c932cba295114fec87f5c4052b0
+SHA1: 229cd441bc9459b3b6482b2ee769e49907ef3b85
+MD5sum: fdd3f3d1cb3c3d4b2e07796fc52e7226
+Description: Vendor neutral GL dispatch library -- EGL support
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains support for EGL.
+
+Package: libegl1-mesa
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 67
+Depends: libegl1
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/m/mesa/libegl1-mesa_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 53640
+SHA256: 348d738977630fc15506a12f1f4d504f51100b9d9d1b12f135d3a55935c2fdf2
+SHA1: c1d6c9b76ad34de28cc99645e2867552272629e4
+MD5sum: 5172299c2bd9032623212c3e62151f71
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libegl1-mesa-dev
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 164
+Depends: mesa-common-dev (= 18.2.8-1ubuntu0~18.04.2), libglvnd-dev, libdrm-dev (>= 2.4.91), libx11-dev, libxext-dev, libxxf86vm-dev, libxdamage-dev, libxfixes-dev, libxcb-glx0-dev, libxcb-dri2-0-dev, libxcb-dri3-dev, libxcb-present-dev, libxcb-sync-dev, libxshmfence-dev, libx11-xcb-dev, libwayland-dev (>= 1.15.0), x11proto-dev
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mesa/libegl1-mesa-dev_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 68052
+SHA256: 566fbf59df3a98d292c37bf316c738ac0379bf0d858c65e12f0e587f6db80e48
+SHA1: 5d1141a3d100210319696245fc4af765095307d3
+MD5sum: eac0840746f0bbac10d195df007a2889
+Description: free implementation of the EGL API -- development files
+ This package contains the development environment required for compiling
+ programs against EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES.
+ .
+ This package provides the development environment for compiling programs
+ against the EGL library.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgbm-dev
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 91
+Depends: libgbm1 (= 18.2.8-1ubuntu0~18.04.2)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mesa/libgbm-dev_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 57420
+SHA256: 2ce1148a827336925730f29eccebc1f0af81978abe4b5a9e849b3b58a725a628
+SHA1: 5840f695987ddba19220fdc799d7f1bada8de598
+MD5sum: 89c0812b99b79ee0047227bd989b4630
+Description: generic buffer management API -- development files
+ This package contains the GBM buffer management library.  It provides a
+ mechanism for allocating buffers for graphics rendering tied to Mesa.
+ .
+ GBM is intended to be used as a native platform for EGL on drm or openwfd.
+ .
+ This package provides the development environment for compiling programs
+ against the GBM library.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgbm1
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 117
+Depends: libc6 (>= 2.8), libdrm2 (>= 2.4.75), libexpat1 (>= 2.0.1), libwayland-server0 (>= 1.15.0), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libgbm1_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 70240
+SHA256: e076f5ed48dadceffb5cec180683281698713cce1edcbeb874ff43580de42465
+SHA1: 6c7944370d68e8214995521cbec4240052e786e5
+MD5sum: 11f5ffa5cfaf71325d5facbf29cf4978
+Description: generic buffer management API -- runtime
+ This package contains the GBM buffer management library.  It provides a
+ mechanism for allocating buffers for graphics rendering tied to Mesa.
+ .
+ GBM is intended to be used as a native platform for EGL on drm or openwfd.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgl1
+Source: libglvnd
+Version: 1.0.0-3ubuntu2.3
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 561
+Depends: libc6 (>= 2.4), libglvnd0 (= 1.0.0-3ubuntu2.3), libglx0 (= 1.0.0-3ubuntu2.3)
+Breaks: glx-diversions (<< 0.8), libgl1-mesa-glx (<< 18.0.5-0ubuntu0~18.04), libglvnd0 (<< 0.2.999+git20170201-1)
+Replaces: libgl1-mesa-glx (<< 18.0.5-0ubuntu0~18.04), libglvnd0 (<< 0.2.999+git20170201-1)
+Multi-Arch: same
+Homepage: https://github.com/NVIDIA/libglvnd
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglvnd/libgl1_1.0.0-3ubuntu2.3_armhf.deb
+Size: 95388
+SHA256: 78f8ca2f59538bab7596801b9ecc0dbe9c3b9c52d5a185eb3ad721e9ded72a2c
+SHA1: 818b34d7b0f9d4cfa4e721f6ef1dfa6277b572fb
+MD5sum: 2552c074c1bbe65fdc222acf420768eb
+Description: Vendor neutral GL dispatch library -- legacy GL support
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains support for old libGL for compatibility reasons.
+
+Package: libgl1-mesa-dev
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 71
+Depends: mesa-common-dev (= 18.2.8-1ubuntu0~18.04.2), libglvnd-dev, libdrm-dev (>= 2.4.91), libx11-dev, libx11-xcb-dev, libxcb-dri3-dev, libxcb-present-dev, libxcb-sync-dev, libxshmfence-dev, libxcb-dri2-0-dev, libxcb-glx0-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxxf86vm-dev, x11proto-dev
+Conflicts: libgl-dev
+Replaces: libgl-dev
+Provides: libgl-dev
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mesa/libgl1-mesa-dev_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 54320
+SHA256: 0e68dff361ecba27c22291a1a478044f68c7d9a10769214364701ee7fb12b722
+SHA1: c7dde06ef461504d93e56585d0366bc01c6d206d
+MD5sum: 6ba2119d8d7d706a21c295b11e705a17
+Description: free implementation of the OpenGL API -- GLX development files
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package includes headers and static libraries for compiling
+ programs with Mesa.
+ .
+ For a complete description of Mesa, please look at the libglx-mesa0
+ package.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgl1-mesa-dri
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 123628
+Depends: libc6 (>= 2.27), libdrm-amdgpu1 (>= 2.4.90), libdrm-etnaviv1 (>= 2.4.89), libdrm-freedreno1 (>= 2.4.92), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.84), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.5), libglapi-mesa, libllvm7 (>= 1:7~svn298832-1~), libsensors4 (>= 1:3.0.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libgl1-mesa-dri_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 4042100
+SHA256: 9b6b5db9b58950469ea7183e2d683b638f21c3e2f2688a8e105675abed36a9ed
+SHA1: 8af70e56ac1a6a46f1ff91e549e0a8d9565601c6
+MD5sum: cee5013b76694bd5014d189718a5648d
+Description: free implementation of the OpenGL API -- DRI modules
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the OpenGL library itself, only the DRI
+ modules for accelerating direct rendering.
+ .
+ For a complete description of Mesa, please look at the
+ libglx-mesa0 package.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgl1-mesa-glx
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 67
+Depends: libgl1, libglx-mesa0
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/m/mesa/libgl1-mesa-glx_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 53676
+SHA256: 506e527f5a4ab1fedd5c6f92b044cda992ad12b5e530edaf85e4d00866ca03a2
+SHA1: 2d48ef6a309b75b9f3823d5535ba197eae1307f3
+MD5sum: de6cd26575bba08340e7a20d995f82dc
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libglapi-mesa
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 221
+Depends: libc6 (>= 2.4)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libglapi-mesa_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 77836
+SHA256: 5844ce3eb0a63d9b9733be1b20a8ba28ab383c195573b8cf56528dc51fe30b05
+SHA1: 799dc8042ebfaaea33d0f5ce30a928ce444a50c3
+MD5sum: 47da39928964d8d715c21ac1a3ee9319
+Description: free implementation of the GL API -- shared library
+ The Mesa GL API module is responsible for dispatching all the gl*
+ functions. It is intended to be mainly used by both the libgles1-mesa
+ and libgles2-mesa packages.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgles1
+Source: libglvnd
+Version: 1.0.0-3ubuntu2.3
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 47
+Depends: libc6 (>= 2.4), libglvnd0 (= 1.0.0-3ubuntu2.3)
+Breaks: libgles1-mesa (<< 17.0.0~rc3-1)
+Replaces: libgles1-mesa (<< 17.0.0~rc3-1)
+Multi-Arch: same
+Homepage: https://github.com/NVIDIA/libglvnd
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglvnd/libgles1_1.0.0-3ubuntu2.3_armhf.deb
+Size: 12600
+SHA256: 50a43c3b7990ad61e1cec5f4ee82203e38f22a54fa7dd91ecdb4e67e952304a1
+SHA1: 633d23901f06de15dcf255361461de79f4c00058
+MD5sum: 08c85ab3d1c3c6ace35340cffb8a6671
+Description: Vendor neutral GL dispatch library -- GLESv1 support
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains support for GLESv1.
+
+Package: libgles2
+Source: libglvnd
+Version: 1.0.0-3ubuntu2.3
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 91
+Depends: libc6 (>= 2.4), libglvnd0 (= 1.0.0-3ubuntu2.3)
+Breaks: libgles2-mesa (<< 18.0.5-0ubuntu0~18.04)
+Replaces: libgles2-mesa (<< 18.0.5-0ubuntu0~18.04)
+Multi-Arch: same
+Homepage: https://github.com/NVIDIA/libglvnd
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglvnd/libgles2_1.0.0-3ubuntu2.3_armhf.deb
+Size: 20152
+SHA256: e40d9e3f3f9d8eb65f94f42a27b07b9411e25e1c07f89a479a5ca22cb98a44e9
+SHA1: 2132a3d3133b11bd533cb426b03c3bd16a6dbe11
+MD5sum: 73dad52f385f0cd027a79cb1ba539b62
+Description: Vendor neutral GL dispatch library -- GLESv2 support
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains support for GLESv2.
+
+Package: libgles2-mesa
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 67
+Depends: libgles2
+Breaks: nvidia-304, nvidia-340 (<= 340.106-0ubuntu1), nvidia-384 (<< 390.25)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/m/mesa/libgles2-mesa_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 53692
+SHA256: dc2d0b26b167a9af5eafca313560600a8d6dd060f24bbf0a4dc1612fd3792397
+SHA1: c2c9e477addadb2b106a5b982aab42b99c6aa30c
+MD5sum: 1e00359d76ccd9227544dda1cefe651b
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgles2-mesa-dev
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 652
+Depends: libegl1-mesa-dev, libglvnd-dev
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mesa/libgles2-mesa-dev_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 92028
+SHA256: 7cb74ca47dba7edb3fa49b98409e9d77a1f2aaf34a2c2844fc3f16bcc93365a1
+SHA1: 2dd49af2f07c8b08c0b377eb91f59b1a220ba3ce
+MD5sum: 55319476db7bc39507b2c3fd68bafa6c
+Description: free implementation of the OpenGL|ES 2.x API -- development files
+ OpenGL|ES is a cross-platform API for full-function 2D and 3D graphics on
+ embedded systems - including consoles, phones, appliances and vehicles.
+ It contains a subset of OpenGL plus a number of extensions for the
+ special needs of embedded systems.
+ .
+ OpenGL|ES 2.x provides an API for programmable hardware including vertex
+ and fragment shaders.
+ .
+ This package provides a development environment for building applications
+ using the OpenGL|ES 2.x APIs.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libglvnd-core-dev
+Source: libglvnd
+Version: 1.0.0-3ubuntu2.3
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 63
+Breaks: libglvnd-dev (<< 0.2.999+git20170201-1)
+Replaces: libglvnd-dev (<< 0.2.999+git20170201-1)
+Multi-Arch: same
+Homepage: https://github.com/NVIDIA/libglvnd
+Priority: optional
+Section: libdevel
+Filename: pool/main/libg/libglvnd/libglvnd-core-dev_1.0.0-3ubuntu2.3_armhf.deb
+Size: 13360
+SHA256: 495ebd250455fcc1e528d2b728be27474833c29d5cf19d7da14b8cec6e72401c
+SHA1: 0dd430d756fd91c6d77e5c6580b28e3650c92c75
+MD5sum: 7c7a16827ccd92c7cd2d527582880d57
+Description: Vendor neutral GL dispatch library -- core development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the header files for libglvnd split in a separate
+ package for Mesa.
+
+Package: libglvnd-dev
+Source: libglvnd
+Version: 1.0.0-3ubuntu2.3
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 25
+Depends: libglvnd0 (= 1.0.0-3ubuntu2.3), libglvnd-core-dev (= 1.0.0-3ubuntu2.3), libegl1 (= 1.0.0-3ubuntu2.3), libgles1 (= 1.0.0-3ubuntu2.3), libgles2 (= 1.0.0-3ubuntu2.3), libgl1 (= 1.0.0-3ubuntu2.3), libglx0 (= 1.0.0-3ubuntu2.3), libopengl0 (= 1.0.0-3ubuntu2.3)
+Breaks: libegl1-mesa-dev (<< 18.0.5-0ubuntu0~18.04), libgl1-mesa-dev (<< 18.0.5-0ubuntu0~18.04), libgles1-mesa-dev (<< 17.0.0~rc3-1), libgles2-mesa-dev (<< 18.0.5-0ubuntu0~18.04)
+Replaces: libegl1-mesa-dev (<< 18.0.5-0ubuntu0~18.04), libgl1-mesa-dev (<< 18.0.5-0ubuntu0~18.04), libgles1-mesa-dev (<< 17.0.0~rc3-1), libgles2-mesa-dev (<< 18.0.5-0ubuntu0~18.04)
+Multi-Arch: same
+Homepage: https://github.com/NVIDIA/libglvnd
+Priority: optional
+Section: libdevel
+Filename: pool/main/libg/libglvnd/libglvnd-dev_1.0.0-3ubuntu2.3_armhf.deb
+Size: 5336
+SHA256: 6f4cadb96a92b06b58414c492d32abadc4e1ee344a96319e70c0ba3d1222faa2
+SHA1: dcd75253adb4da050ae64fb41fbddbbd73c1642d
+MD5sum: 889e5cde499bebda91aed542380e181c
+Description: Vendor neutral GL dispatch library -- development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the development files for libglvnd.
+
+Package: libglvnd0
+Source: libglvnd
+Version: 1.0.0-3ubuntu2.3
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 401
+Depends: libc6 (>= 2.8)
+Breaks: libgldispatch0-nvidia
+Replaces: libgldispatch0-nvidia
+Multi-Arch: same
+Homepage: https://github.com/NVIDIA/libglvnd
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglvnd/libglvnd0_1.0.0-3ubuntu2.3_armhf.deb
+Size: 48084
+SHA256: 25c299eede3bb0b11b0e10e9b310d1514a99f7331a380382396c84d3b1344743
+SHA1: a8468153653dec9a6910c093a87c6b0a440bb6c0
+MD5sum: 7a446cea996730e69ad249bcf521b42f
+Description: Vendor neutral GL dispatch library
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the GL dispatch library.
+
+Package: libglx-mesa0
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 411
+Depends: libc6 (>= 2.8), libdrm2 (>= 2.4.75), libexpat1 (>= 2.0.1), libglapi-mesa (= 18.2.8-1ubuntu0~18.04.2), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-glx0 (>= 1.8), libxcb-present0, libxcb-sync1, libxcb1 (>= 1.9.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxshmfence1, libxxf86vm1, zlib1g (>= 1:1.1.4), libgl1-mesa-dri
+Breaks: glx-diversions (<< 0.8.4~), libopengl-perl (<< 0.6704+dfsg-2), nvidia-304, nvidia-340 (<= 340.106-0ubuntu1), nvidia-384 (<< 390.25)
+Provides: libglx-vendor
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libglx-mesa0_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 168416
+SHA256: d4a1c7df84ef58b5d6698c15fac4dbe6d57476766beab811bc60e2eb66d27957
+SHA1: 7ee4544bb11ba00ea108c16972de7d620d3ad6d6
+MD5sum: 53562b76b62b933f0f362539d2de5ce6
+Description: free implementation of the OpenGL API -- GLX vendor library
+ Mesa is a 3-D graphics library with an API which is very similar to
+ that of OpenGL.  To the extent that Mesa utilizes the OpenGL command
+ syntax or state machine, it is being used with authorization from
+ Silicon Graphics, Inc.  However, the authors make no claim that Mesa
+ is in any way a compatible replacement for OpenGL or associated with
+ Silicon Graphics, Inc.
+ .
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the modules themselves: these can be found
+ in the libgl1-mesa-dri package.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libglx0
+Source: libglvnd
+Version: 1.0.0-3ubuntu2.3
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 65
+Depends: libc6 (>= 2.8), libglvnd0 (= 1.0.0-3ubuntu2.3), libx11-6 (>= 2:1.4.99.1), libglx-mesa0
+Breaks: libgl1-mesa-glx (<< 18.0.5-0ubuntu0~18.04), libglvnd0 (<< 0.2.999+git20170201-1)
+Replaces: libgl1-mesa-glx (<< 18.0.5-0ubuntu0~18.04), libglvnd0 (<< 0.2.999+git20170201-1)
+Multi-Arch: same
+Homepage: https://github.com/NVIDIA/libglvnd
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglvnd/libglx0_1.0.0-3ubuntu2.3_armhf.deb
+Size: 25192
+SHA256: c6d42b5bd55a5dff873e009b596fd89155427497967d302c368c8d2e33a7b023
+SHA1: 9aab11e9800c874d9553280264d1ddbc583793e5
+MD5sum: d498dd39a89dc1720bc2d4d926fe9541
+Description: Vendor neutral GL dispatch library -- GLX support
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains support for GLX.
+
+Package: libimxvpuapi-dev
+Source: libimxvpuapi
+Version: 0.10.3-2ubuntu9
+Architecture: armhf
+Maintainer: Carlos Rafael Giani <dv@pseudoterminal.org>
+Installed-Size: 110
+Depends: libimxvpuapi0 (= 0.10.3-2ubuntu9)
+Homepage: https://github.com/Freescale/libimxvpuapi
+Priority: extra
+Section: libdevel
+Filename: pool/main/libi/libimxvpuapi/libimxvpuapi-dev_0.10.3-2ubuntu9_armhf.deb
+Size: 24888
+SHA256: d5563fdb3edbc70254675c7a5fc80c4953cfb2259c8c18a249a50343cc9d138f
+SHA1: 71e2f647eb1cddadac41b7d1ebe479b3fbce8821
+MD5sum: 18e0579584aad7ddd0e95eeaaa928f3b
+Description: Development files for libimxvpuapi
+ This package provides the development files required to build software against libimxvpuapi.
+
+Package: libimxvpuapi0
+Source: libimxvpuapi
+Version: 0.10.3-2ubuntu9
+Architecture: armhf
+Maintainer: Carlos Rafael Giani <dv@pseudoterminal.org>
+Installed-Size: 68
+Depends: imx-vpu-13b | imx-vpu-14b | imx-vpu-15b, libc6 (>= 2.4)
+Multi-Arch: same
+Homepage: https://github.com/Freescale/libimxvpuapi
+Priority: extra
+Section: libs
+Filename: pool/main/libi/libimxvpuapi/libimxvpuapi0_0.10.3-2ubuntu9_armhf.deb
+Size: 27024
+SHA256: 8e08c96972f516126ebe605c0c590f67f32293e064f5e29494fc599e2fcdea66
+SHA1: d53bea237d89370096697f88defd666f6b900fdb
+MD5sum: e8e3179702b2dd4cbefc2bff27fa6b32
+Description: Frontend for the i.MX6 VPU hardware video engine
+ This library provides an API for using the iMX6 VPU video engine.
+ It is an alternative to Freescale's VPU wrapper.
+ Both the wrapper and this library are layered on top of imx-vpu, the low-level iMX6 VPU interface.
+
+Package: libkms1
+Source: libdrm
+Version: 2.4.95-2~18.04.1
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 47
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.25)
+Multi-Arch: same
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libkms1_2.4.95-2~18.04.1_armhf.deb
+Size: 16572
+SHA256: a9011972708e9d415d0523e27fd2b4d538659ce6e2b80879adb72f343b182814
+SHA1: 3d8174419cf80c116d9b4c24c68cb828667fc4c3
+MD5sum: 2f599fd88461cd05d2ddf2e0648a118e
+Description: Userspace interface to kernel DRM buffer management -- runtime
+
+Package: libopengl0
+Source: libglvnd
+Version: 1.0.0-3ubuntu2.3
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 186
+Depends: libc6 (>= 2.4), libglvnd0 (= 1.0.0-3ubuntu2.3)
+Breaks: libglvnd0 (<< 0.2.999+git20170201-1)
+Replaces: libglvnd0 (<< 0.2.999+git20170201-1)
+Multi-Arch: same
+Homepage: https://github.com/NVIDIA/libglvnd
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglvnd/libopengl0_1.0.0-3ubuntu2.3_armhf.deb
+Size: 36220
+SHA256: 0fa8db61e3cdc63db42b9e0309b62d60a965c97d4ad9188865ed4a1476fa71a1
+SHA1: e940089e4d979abab7d87d6ea84dcad568eb56ec
+MD5sum: 8e22753cb1fe8ab4de1efa29b03f7622
+Description: Vendor neutral GL dispatch library -- OpenGL support
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains support for OpenGL.
+
+Package: libosmesa6
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 3147
+Depends: libc6 (>= 2.27), libgcc1 (>= 1:3.5), libglapi-mesa (= 18.2.8-1ubuntu0~18.04.2), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libosmesa6_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 1297188
+SHA256: e1e1233fce2e1b5b4687e631ed65e10acc2a873f0bb8bbc1dd576755a7022fdb
+SHA1: 627a59e92b8500d8160df2ec5c3a7d27a504b025
+MD5sum: a47e29e1dfbcb96644a6f1bf07bfb608
+Description: Mesa Off-screen rendering extension
+ OSmesa is a Mesa extension that allows programs to render to an
+ off-screen buffer using the OpenGL API without having to create a
+ rendering context on an X Server.  It uses a pure software renderer.
+ .
+ This package provides both 16-bit and 32-bit versions of the off-screen
+ renderer which do not require external libraries to work.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libosmesa6-dev
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 85
+Depends: libosmesa6 (= 18.2.8-1ubuntu0~18.04.2), mesa-common-dev (= 18.2.8-1ubuntu0~18.04.2) | libgl-dev
+Conflicts: libosmesa-dev
+Replaces: libosmesa-dev
+Provides: libosmesa-dev
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mesa/libosmesa6-dev_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 57040
+SHA256: da9757e4a75a1d4dc5cdb28de9c0fc383a5d568b6d2c4cb5442a659f48d4a1ca
+SHA1: 1575ae5bd459f0dade856fe82f99f0ec58b89c70
+MD5sum: 14eda8b60cf77951bad70ca9f647428a
+Description: Mesa Off-screen rendering extension -- development files
+ This package provides the required environment for developing programs
+ that use the off-screen rendering extension of Mesa.
+ .
+ For more information on OSmesa see the libosmesa6 package.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libwayland-egl1-mesa
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 67
+Depends: libegl1, libwayland-egl1
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/m/mesa/libwayland-egl1-mesa_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 53664
+SHA256: da995c7fdd8daeeb78115887aaabdf67d10a96b01ca43536cf1cd6bf2bdeb647
+SHA1: cec0453216489493dbf0b335d1cd4852179fd0fd
+MD5sum: 0edad0d4a15e074e5618cd796a4bce21
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: mesa-common-dev
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 3816
+Depends: libx11-dev, libdrm-dev (>= 2.4.91)
+Breaks: libegl1-mesa-dev (<< 18.2.5-2)
+Replaces: libegl1-mesa-dev (<< 18.2.5-2)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mesa/mesa-common-dev_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 607904
+SHA256: 1883fb790ebf50cb4334d75635ff2a5c5c68d5c52f77a288129760acc1f8b6ec
+SHA1: 72775d73f47e02460b2e3cd8ec761eb802b8926c
+MD5sum: dea4d33f30cc2e81b4aeebd30dcc6c33
+Description: Developer documentation for Mesa
+ This package includes the specifications for the Mesa-specific OpenGL
+ extensions, the complete set of release notes and the development header
+ files common to all Mesa packages.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: mesa-opencl-icd
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 21416
+Depends: libclc-r600 (>= 0.2.0+git20180312-1~), libclc-amdgcn (>= 0.2.0+git20180312-1~), ocl-icd-libopencl1 | libopencl1, libc6 (>= 2.27), libdrm-amdgpu1 (>= 2.4.90), libdrm-freedreno1 (>= 2.4.92), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.75), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.5), libllvm7 (>= 1:7~svn298832-1~), libsensors4 (>= 1:3.0.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Provides: opencl-icd
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/mesa-opencl-icd_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 7639596
+SHA256: 202fb4188a98ba4444f9e267b79592a14ed5a5f28ee36aa440bd78bee9b2fef1
+SHA1: 73113b22e758e0f3c6ed9d79dfde6e5e13892cf3
+MD5sum: d19ed0825ed953761aa99609bf1e16dc
+Description: free implementation of the OpenCL API -- ICD runtime
+ This package contains the mesa implementation of the OpenCL (Open Compute
+ Language) library, which is intended for use with an ICD loader. OpenCL
+ provides a standardized interface for computational analysis on graphical
+ processing units.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: mesa-va-drivers
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 10894
+Depends: libc6 (>= 2.27), libdrm-amdgpu1 (>= 2.4.90), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.75), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.5), libllvm7 (>= 1:7~svn298832-1~), libsensors4 (>= 1:3.0.0), libstdc++6 (>= 5.2), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, zlib1g (>= 1:1.1.4), libva-driver-abi-1.1
+Enhances: libva2
+Breaks: vdpau-va-driver (<< 0.7.4-5)
+Replaces: vdpau-va-driver (<< 0.7.4-5)
+Provides: va-driver
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/mesa-va-drivers_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 1708652
+SHA256: 000063baf48d7d620e4b6fc4a4f5c2ebeaf891df7750bb470122796341ea8a6f
+SHA1: 74c1b81bef04d4f5eb0a81d477e3248588633a81
+MD5sum: d39afd4f13cb93e84175aa1a5dbbe3a0
+Description: Mesa VA-API video acceleration drivers
+ These libraries provide the Video Acceleration API (VA-API) for Unix.
+ They provide accelerated video playback (incl. H.264) and video
+ post-processing for the supported graphics cards.
+ .
+ This package enables support for VA-API for some gallium drivers.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: mesa-vdpau-drivers
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 19192
+Depends: libvdpau1, libc6 (>= 2.27), libdrm-amdgpu1 (>= 2.4.90), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.75), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.5), libllvm7 (>= 1:7~svn298832-1~), libsensors4 (>= 1:3.0.0), libstdc++6 (>= 5.2), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, zlib1g (>= 1:1.1.4)
+Enhances: libvdpau1
+Provides: vdpau-driver
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/mesa-vdpau-drivers_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 1830132
+SHA256: 9a821ad9f9566bb891a8dbc8c137764b4a98d57bbcd67d8a3a45044c29ce5f33
+SHA1: 15de78b4d80fd8517a66e76ffab0c3390199fc8d
+MD5sum: 8238c0cf222d83d0fa5d153d372dc242
+Description: Mesa VDPAU video acceleration drivers
+ These libraries provide the Video Decode and Presentation API for Unix.
+ They provide accelerated video playback (incl. H.264) and video
+ post-processing for the supported graphics cards.
+ .
+ This package enables support for VDPAU for some gallium drivers.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: mesa-vulkan-drivers
+Source: mesa
+Version: 18.2.8-1ubuntu0~18.04.2
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 1557
+Depends: libvulkan1, libc6 (>= 2.27), libdrm-amdgpu1 (>= 2.4.90), libdrm2 (>= 2.4.89), libelf1 (>= 0.142), libgcc1 (>= 1:3.5), libllvm7 (>= 1:7~svn298832-1~), libstdc++6 (>= 5.2), libwayland-client0 (>= 1.15.0), libx11-xcb1, libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0 (>= 1.13), libxcb-sync1, libxcb1 (>= 1.9.2), libxshmfence1, zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/mesa-vulkan-drivers_18.2.8-1ubuntu0~18.04.2_armhf.deb
+Size: 649716
+SHA256: 8542254b75a82a5e0bc233017008d2ce6541aadbaa7464cf5aa21dae40d5fe71
+SHA1: 9ffc2ee0f36d8e2459b7cea3f2f24c3db521cda2
+MD5sum: 8f2c1af0ee0b97f641cdf2a0d5834110
+Description: Mesa Vulkan graphics drivers
+ Vulkan is a low-overhead 3D graphics and compute API. This package
+ includes Vulkan drivers provided by the Mesa project.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xdmx
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 1376
+Depends: xserver-common (>= 2:1.19.6-1ubuntu4.3.1), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libgcrypt20 (>= 1.8.0), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libx11-6 (>= 2:1.6.0), libxau6, libxdmcp6, libxext6, libxfixes3, libxfont2 (>= 1:2.0.1), libxi6, libxmuu1, libxrender1
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xdmx_1.19.6-1ubuntu4.3.1_armhf.deb
+Size: 771580
+SHA256: 4877a8b6fb0e4b6477dd1af3831368275dd6e3733a555b8327e03ad055e2dcb3
+SHA1: ff7ed969e71f2c73ae5666e87ab1a0e0bb311c2e
+MD5sum: 8279715ef03b5289ff9404793e1b379b
+Description: distributed multihead X server
+ Xdmx is a proxy X server that uses one or more other X servers as its
+ display device(s). It provides multi-head X functionality for displays that
+ might be located on different machines. Xdmx functions as a front-end X server
+ that acts as a proxy to a set of back-end X servers. All of the visible
+ rendering is passed to the back-end X servers. Clients connect to the Xdmx
+ front-end, and everything appears as it would in a regular multi-head
+ configuration. If Xinerama is enabled (e.g., with +xinerama on the command
+ line), the clients see a single large screen.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xdmx-tools
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 342
+Depends: xdmx, libc6 (>= 2.4), libdmx1, libx11-6, libxaw7, libxt6
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xdmx-tools_1.19.6-1ubuntu4.3.1_armhf.deb
+Size: 142256
+SHA256: 23955ce1e0d49fbf8605fbb3ce5c7794f097c43c98f9550ee5be1cd9b49d7c84
+SHA1: 66c760c65b20d59a1d7d17d1b3ce03ed09e52b79
+MD5sum: ab68faaf7645c34e12381619a7f4b032
+Description: Distributed Multihead X tools
+ This package provides a collection of tools used for administration of
+ the Xdmx server; see the xdmx package for more information.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xmir
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 1491
+Depends: xserver-common (>= 2:1.19.6-1ubuntu4.3.1), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libdrm2 (>= 2.4.16), libepoxy0 (>= 1.2), libgbm1 (>= 8.1~0), libgcrypt20 (>= 1.8.0), libgl1, libmirclient9 (>= 0.31.1), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libxau6, libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xmir_1.19.6-1ubuntu4.3.1_armhf.deb
+Size: 812780
+SHA256: 9102a03a6b2b57a650741bd788994b0b675fac32ee1544fa38938b09432530a4
+SHA1: dfafba0ed068699ec1e71560863b76c152cae71e
+MD5sum: adcf0d2efc2a9ff6eb18252510bbb6d0
+Description: Xmir X server
+ This package provides an X server running on top of Mir, using Mir
+ input devices for input and forwarding either the root window or individual
+ top-level windows as wayland surfaces.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xnest
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 1121
+Depends: xserver-common (>= 2:1.19.6-1ubuntu4.3.1), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libgcrypt20 (>= 1.8.0), libpixman-1-0 (>= 0.13.2), libselinux1 (>= 2.0.82), libsystemd0, libx11-6, libxau6, libxdmcp6, libxext6, libxfont2 (>= 1:2.0.1)
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Provides: xserver
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xnest_1.19.6-1ubuntu4.3.1_armhf.deb
+Size: 631404
+SHA256: 74f9f1506964588336998c5e2370e33b32cff0bbda9d01c28e45e125035a54db
+SHA1: 52a0896e9fbb496d18be743ff796619a6cc54cbe
+MD5sum: 9787646aed96ea254bdad0c5b355a7ad
+Description: Nested X server
+ Xnest is a nested X server that simply relays all its requests to another
+ X server, where it runs as a client.  This means that it appears as another
+ window in your current X session.  Xnest relies upon its parent X server
+ for font services.
+ .
+ Use of the Xephyr X server instead of Xnest is recommended.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xorg-server-source
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: all
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 6647
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xorg-server-source_1.19.6-1ubuntu4.3.1_all.deb
+Size: 5140660
+SHA256: 40ce686edd220389a25251ef10ac597e829c5f699ed9580876fbed4a985d36f5
+SHA1: 06d4eaf078a87dd97d180a426cf9bff8437915d5
+MD5sum: 1113cf8baeffbe6c9827905f7364daef
+Description: Xorg X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the X.Org ('Xorg')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xorg and/or xserver-xorg-core instead.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xserver-common
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: all
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 235
+Depends: x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-common_1.19.6-1ubuntu4.3.1_all.deb
+Size: 121376
+SHA256: dcca8a61e8d2eeedc0983bf636b6ef4acee1940d21e37981688295d114d162ed
+SHA1: 537bcfe10c85bb33ded422c563b672a613009cb8
+MD5sum: 5dd090f34f0fa07987b9e8e68bc02141
+Description: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xserver-xephyr
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 1579
+Depends: xserver-common (>= 2:1.19.6-1ubuntu4.3.1), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libepoxy0 (>= 1.0), libgcrypt20 (>= 1.8.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libudev1 (>= 183), libx11-6, libx11-xcb1, libxau6, libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Provides: xserver
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xephyr_1.19.6-1ubuntu4.3.1_armhf.deb
+Size: 861752
+SHA256: ccfd753b693a798ef9f29db1122bfd7ea60e8723dcb018d8e5ebfe4ebd298794
+SHA1: 137d25a420860dd20ff3e48221cb2065b8128522
+MD5sum: d5477065bb6e6112c8b1107152b21a3e
+Description: nested X server
+ Xephyr is an X server that can be run inside another X server,
+ much like Xnest. It is based on the kdrive X server, and as a
+ result it supports newer extensions than Xnest, including render and
+ composite.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xserver-xorg-core
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 2433
+Depends: xserver-common (>= 2:1.19.6-1ubuntu4.3.1), keyboard-configuration, udev (>= 149), libegl1-mesa | libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.3.1), libepoxy0 (>= 1.0), libgbm1 (>= 10.2~0), libgcrypt20 (>= 1.8.0), libgl1, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libudev1 (>= 183), libxau6, libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.10.2-4), libpam-systemd
+Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
+Conflicts: xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
+Breaks: systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
+Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
+Provides: xorg-input-abi-24, xorg-video-abi-23, xserver-xorg-video-modesetting
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xorg-core_1.19.6-1ubuntu4.3.1_armhf.deb
+Size: 1211600
+SHA256: 0b23134b91ada1a6d1785dbc1f17fe2c9628a68bbed38501db33cfe937cb469c
+SHA1: f9eec5d079492f193e83b9735ddc6e78c35d2f01
+MD5sum: b09dd02bbd792bbbe1629dd41d5c616f
+Description: Xorg X server - core server
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xserver-xorg-dev
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 1419
+Depends: libpixman-1-dev (>= 0.27.2), x11proto-core-dev (>= 7.0.31), x11proto-input-dev (>= 2.3), x11proto-xext-dev (>= 7.2.99.901), x11proto-video-dev, x11proto-randr-dev (>= 1.5.0), x11proto-render-dev (>= 2:0.11), x11proto-dri2-dev (>= 2.8), x11proto-gl-dev (>= 1.4.17), x11proto-fonts-dev (>= 2.1.3), x11proto-xinerama-dev, x11proto-kb-dev, x11proto-xf86dri-dev, x11proto-resource-dev (>= 1.2.0), x11proto-scrnsaver-dev, x11proto-xf86bigfont-dev (>= 1.2.0), x11proto-dri3-dev, x11proto-present-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev, libmirclient-dev, mir-client-platform-mesa-dev
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xorg-dev_1.19.6-1ubuntu4.3.1_armhf.deb
+Size: 292708
+SHA256: 41cf6c715d32a433d87007c7ba627dbbe10717edc40c9ced723e55db4dc09748
+SHA1: a92702b82e651ffae961f65b219e736e90a341e7
+MD5sum: 97ce361bbecda84f6ffa6abbc1d95dda
+Description: Xorg X server - development files
+ This package provides development files for the X.Org ('Xorg') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xorg and/or xserver-xorg-core instead.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xserver-xorg-legacy
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 261
+Depends: xserver-common (>= 2:1.19.6-1ubuntu4.3.1), libc6 (>= 2.4), debconf (>= 0.5) | debconf-2.0
+Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xorg-legacy_1.19.6-1ubuntu4.3.1_armhf.deb
+Size: 126484
+SHA256: 9060fe7f27158975e6c763963a713d6075154e06c5f9e2031cba3f4eedce04a2
+SHA1: 691c3bd1614ca44b65840634d8f5db0eb4a5c42f
+MD5sum: fa8f1e181a4782bb05b1edfaf496e08a
+Description: setuid root Xorg server wrapper
+ This package provides a wrapper for the Xorg X server, which is
+ necessary for legacy drivers and non-Linux kernels.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xserver-xorg-xmir
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: all
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 192
+Depends: xmir
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xorg-xmir_1.19.6-1ubuntu4.3.1_all.deb
+Size: 105336
+SHA256: b75caf5cecfa536395ae5d79034786b004d655673d54dc2deeb5af6fa3a25039
+SHA1: 18c195cdec7a0d0de8bf274dab32fdac3abc4c52
+MD5sum: b82c3b9fd98df6b37473cd0f90b5c005
+Description: Xmir X server (transitional package)
+ This is a transitional package to ease upgrades to xmir.
+ It can be safely removed.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xvfb
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 1362
+Depends: xserver-common (>= 2:1.19.6-1ubuntu4.3.1), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libgcrypt20 (>= 1.8.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libxau6, libxdmcp6, libxfont2 (>= 1:2.0.1), xauth, x11-xkb-utils
+Recommends: libgl1-mesa-dri
+Provides: xserver
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xvfb_1.19.6-1ubuntu4.3.1_armhf.deb
+Size: 746464
+SHA256: 03656fe3a7911cf80d82400e16f51d3ed2aa31843f1c0e2a9fd9fb1cea774475
+SHA1: 30d80dabb3b9c78e75bc5ca0d8832373b0440bc0
+MD5sum: 9224b7c178f148f3c652b27ee94f42cb
+Description: Virtual Framebuffer 'fake' X server
+ Xvfb provides an X server that can run on machines with no display hardware
+ and no physical input devices. It emulates a dumb framebuffer using virtual
+ memory. The primary use of this server was intended to be server testing,
+ but other novel uses for it have been found, including testing clients
+ against unusual depths and screen configurations, doing batch processing with
+ Xvfb as a background rendering engine, load testing, as an aid to porting the
+ X server to a new platform, and providing an unobtrusive way to run
+ applications that don't really need an X server but insist on having one
+ anyway.
+ .
+ This package also contains a convenience script called xvfb-run which
+ simplifies the automated execution of X clients in a virtual server
+ environment. This convenience script requires the use of the xauth
+ program.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xwayland
+Source: xorg-server
+Version: 2:1.19.6-1ubuntu4.3.1
+Architecture: armhf
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 1491
+Depends: xserver-common (>= 2:1.19.6-1ubuntu4.3.1), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libdrm2 (>= 2.3.1), libepoxy0 (>= 1.0), libgbm1 (>= 10.2~0), libgcrypt20 (>= 1.8.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libwayland-client0 (>= 1.9.91), libxau6, libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xwayland_1.19.6-1ubuntu4.3.1_armhf.deb
+Size: 810632
+SHA256: 37d521cafe8e0f5bb47cf3ce374c18971a81a4ab7736dda3cd58c7acfed76a9c
+SHA1: 8d63df5244e3d2976d5b444d86db56708a94601d
+MD5sum: b67e59f9d728fa4ff7b04015e7d2bb0a
+Description: Xwayland X server
+ This package provides an X server running on top of wayland, using wayland
+ input devices for input and forwarding either the root window or individual
+ top-level windows as wayland surfaces.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+

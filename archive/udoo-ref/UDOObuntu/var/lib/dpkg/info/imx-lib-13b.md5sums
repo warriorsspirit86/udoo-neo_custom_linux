@@ -1,0 +1,11 @@
+0faebe5c567d439de9ff949248e70f83  usr/include/hdmi-cec.h
+012679e4194e9b7987e69e16c4c02c9a  usr/include/ipu.h
+53547dffe44ac2d2e2a06b6a8f5c65cd  usr/include/mxc_ipu_hl_lib.h
+78f6d552a4867b7e5d3180bcfc64d156  usr/include/pxp_lib.h
+b231a05e8cecc376a78a2ce3a6be2eaa  usr/lib/libcec.a
+0076e8f89076c7262d52889bfe504a78  usr/lib/libcec.so.1
+449e95037ddbadaf933c725809ea92f6  usr/lib/libipu.so.0
+a35e6835ddad25288cbecf16858d818b  usr/lib/libpxp.a
+4bdff0ab583a089decfb4eb8641b4bf1  usr/lib/libpxp.so.0
+d4921a6d0dc9d6492a3e453e986f9a35  usr/share/doc/imx-lib-13b/changelog.Debian.gz
+e2b5fd273fb9b51fac08f1ae6bd1a382  usr/share/doc/imx-lib-13b/copyright

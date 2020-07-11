@@ -1,0 +1,264 @@
+kernel/fs/nfs_common/nfs_acl.ko: kernel/net/sunrpc/sunrpc.ko
+kernel/fs/nfs_common/grace.ko:
+kernel/fs/fat/msdos.ko:
+kernel/fs/nls/nls_iso8859-15.ko:
+kernel/fs/binfmt_misc.ko:
+kernel/fs/configfs/configfs.ko:
+kernel/fs/squashfs/squashfs.ko:
+kernel/fs/isofs/isofs.ko:
+kernel/fs/nfs/nfs.ko: kernel/fs/lockd/lockd.ko kernel/fs/nfs_common/grace.ko kernel/net/sunrpc/sunrpc.ko
+kernel/fs/nfs/nfsv2.ko: kernel/fs/nfs/nfs.ko kernel/fs/lockd/lockd.ko kernel/fs/nfs_common/grace.ko kernel/net/sunrpc/sunrpc.ko
+kernel/fs/nfs/nfsv3.ko: kernel/fs/nfs_common/nfs_acl.ko kernel/fs/nfs/nfs.ko kernel/fs/lockd/lockd.ko kernel/fs/nfs_common/grace.ko kernel/net/sunrpc/sunrpc.ko
+kernel/fs/nfs/nfsv4.ko: kernel/fs/nfs/nfs.ko kernel/fs/lockd/lockd.ko kernel/fs/nfs_common/grace.ko kernel/net/sunrpc/sunrpc.ko
+kernel/fs/lockd/lockd.ko: kernel/fs/nfs_common/grace.ko kernel/net/sunrpc/sunrpc.ko
+kernel/fs/ntfs/ntfs.ko:
+kernel/fs/jffs2/jffs2.ko:
+kernel/fs/ubifs/ubifs.ko:
+kernel/fs/fuse/fuse.ko:
+kernel/fs/udf/udf.ko: kernel/lib/crc-itu-t.ko
+kernel/crypto/tcrypt.ko:
+kernel/drivers/pwm/pwm-imx.ko:
+kernel/drivers/video/fbdev/mxc/mxc_dcic.ko:
+kernel/drivers/dma/dmatest.ko:
+kernel/drivers/block/brd.ko:
+kernel/drivers/misc/eeprom/eeprom_93cx6.ko:
+kernel/drivers/misc/ti-st/st_drv.ko:
+kernel/drivers/misc/ti-st/tty_hci.ko: kernel/drivers/misc/ti-st/st_drv.ko
+kernel/drivers/spi/spidev.ko:
+kernel/drivers/net/wireless/ti/wlcore/wlcore.ko:
+kernel/drivers/net/wireless/ti/wlcore/wlcore_sdio.ko:
+kernel/drivers/net/wireless/ti/wl18xx/wl18xx.ko: kernel/drivers/net/wireless/ti/wlcore/wlcore.ko
+kernel/drivers/net/wireless/rtl818x/rtl8187/rtl8187.ko: kernel/drivers/misc/eeprom/eeprom_93cx6.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/wireless/rndis_wlan.ko: kernel/drivers/net/usb/rndis_host.ko kernel/drivers/net/usb/cdc_ether.ko kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko:
+kernel/drivers/net/wireless/rt2x00/rt2x00usb.ko: kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/wireless/rt2x00/rt2800lib.ko: kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko kernel/lib/crc-ccitt.ko
+kernel/drivers/net/wireless/rt2x00/rt2800usb.ko: kernel/drivers/net/wireless/rt2x00/rt2x00usb.ko kernel/drivers/net/wireless/rt2x00/rt2800lib.ko kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko kernel/lib/crc-ccitt.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/wireless/ath/ath6kl/ath6kl_core.ko:
+kernel/drivers/net/wireless/ath/ath6kl/ath6kl_sdio.ko: kernel/drivers/net/wireless/ath/ath6kl/ath6kl_core.ko
+kernel/drivers/net/wireless/brcm80211/brcmutil/brcmutil.ko:
+kernel/drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.ko: kernel/drivers/net/wireless/brcm80211/brcmutil/brcmutil.ko
+kernel/drivers/net/wireless/bcmdhd/bcmdhd.ko:
+kernel/drivers/net/mii.ko:
+kernel/drivers/net/tun.ko:
+kernel/drivers/net/can/can-dev.ko:
+kernel/drivers/net/can/m_can/m_can.ko: kernel/drivers/net/can/can-dev.ko
+kernel/drivers/net/ppp/ppp_generic.ko: kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/bsd_comp.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/ppp_deflate.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/ppp_mppe.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/pppox.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/pppoe.ko: kernel/drivers/net/ppp/pppox.ko kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/slip/slhc.ko:
+kernel/drivers/net/usb/pegasus.ko: kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/usb/rtl8150.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/usb/r8152.ko: kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/usb/asix.ko: kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/usb/ax88179_178a.ko: kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/usb/cdc_ether.ko: kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/usb/cdc_eem.ko: kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/usb/net1080.ko: kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/usb/rndis_host.ko: kernel/drivers/net/usb/cdc_ether.ko kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/usb/cdc_subset.ko: kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/usb/zaurus.ko: kernel/drivers/net/usb/cdc_ether.ko kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/usb/usbnet.ko: kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/net/usb/cdc_ncm.ko: kernel/drivers/net/usb/usbnet.ko kernel/drivers/net/mii.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/core/usbcore.ko: kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/host/ehci-hcd.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/host/ehci-mxc.ko: kernel/drivers/usb/host/ehci-hcd.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/host/ohci-hcd.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/class/cdc-acm.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/class/usblp.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/class/cdc-wdm.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/storage/usb-storage.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/serial/usbserial.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/serial/cp210x.ko: kernel/drivers/usb/serial/usbserial.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/serial/ftdi_sio.ko: kernel/drivers/usb/serial/usbserial.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/serial/option.ko: kernel/drivers/usb/serial/usb_wwan.ko kernel/drivers/usb/serial/usbserial.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/serial/pl2303.ko: kernel/drivers/usb/serial/usbserial.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/serial/usb-serial-simple.ko: kernel/drivers/usb/serial/usbserial.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/serial/usb_wwan.ko: kernel/drivers/usb/serial/usbserial.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/misc/ehset.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/chipidea/ci_hdrc.ko: kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/host/ehci-hcd.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/chipidea/ci_hdrc_usb2.ko: kernel/drivers/usb/chipidea/ci_hdrc.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/host/ehci-hcd.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/chipidea/ci_hdrc_msm.ko: kernel/drivers/usb/chipidea/ci_hdrc.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/host/ehci-hcd.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/chipidea/ci_hdrc_zevio.ko: kernel/drivers/usb/chipidea/ci_hdrc.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/host/ehci-hcd.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/chipidea/usbmisc_imx.ko:
+kernel/drivers/usb/chipidea/ci_hdrc_imx.ko: kernel/drivers/usb/chipidea/usbmisc_imx.ko kernel/drivers/usb/chipidea/ci_hdrc.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/host/ehci-hcd.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/libcomposite.ko: kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/udc/udc-core.ko: kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/function/usb_f_acm.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/function/u_serial.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/function/usb_f_ss_lb.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/function/u_serial.ko:
+kernel/drivers/usb/gadget/function/usb_f_serial.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/function/u_serial.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/function/usb_f_obex.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/function/u_serial.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/function/u_ether.ko:
+kernel/drivers/usb/gadget/function/usb_f_ncm.ko: kernel/drivers/usb/gadget/function/u_ether.ko kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/function/usb_f_ecm.ko: kernel/drivers/usb/gadget/function/u_ether.ko kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/function/usb_f_ecm_subset.ko: kernel/drivers/usb/gadget/function/u_ether.ko kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/function/usb_f_rndis.ko: kernel/drivers/usb/gadget/function/u_ether.ko kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/function/usb_f_mass_storage.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/function/usb_f_fs.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/function/usb_f_uac2.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/function/usb_f_hid.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/legacy/g_zero.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/legacy/g_audio.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/legacy/g_ether.ko: kernel/drivers/usb/gadget/function/usb_f_rndis.ko kernel/drivers/usb/gadget/function/u_ether.ko kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/legacy/gadgetfs.ko: kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/legacy/g_ffs.ko: kernel/drivers/usb/gadget/function/usb_f_fs.ko kernel/drivers/usb/gadget/function/usb_f_rndis.ko kernel/drivers/usb/gadget/function/u_ether.ko kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/legacy/g_mass_storage.ko: kernel/drivers/usb/gadget/function/usb_f_mass_storage.ko kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/legacy/g_serial.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/legacy/g_cdc.ko: kernel/drivers/usb/gadget/function/u_ether.ko kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/legacy/g_hid.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/legacy/g_multi.ko: kernel/drivers/usb/gadget/function/usb_f_mass_storage.ko kernel/drivers/usb/gadget/function/u_ether.ko kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/legacy/g_ncm.ko: kernel/drivers/usb/gadget/function/u_ether.ko kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/gadget/legacy/g_acm_ms.ko: kernel/drivers/usb/gadget/function/usb_f_mass_storage.ko kernel/drivers/usb/gadget/libcomposite.ko kernel/fs/configfs/configfs.ko kernel/drivers/usb/gadget/udc/udc-core.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/common/usb-common.ko:
+kernel/drivers/usb/common/usb-otg-fsm.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/input/serio/serport.ko:
+kernel/drivers/input/mouse/psmouse.ko:
+kernel/drivers/input/mouse/synaptics_usb.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/input/touchscreen/usbtouchscreen.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/input/misc/fxas2100x.ko:
+kernel/drivers/input/misc/fxos8700.ko:
+kernel/drivers/input/ff-memless.ko:
+kernel/drivers/input/evbug.ko:
+kernel/drivers/i2c/algos/i2c-algo-pcf.ko:
+kernel/drivers/i2c/algos/i2c-algo-pca.ko:
+kernel/drivers/media/v4l2-core/videobuf-vmalloc.ko:
+kernel/drivers/media/usb/zr364xx/zr364xx.ko: kernel/drivers/media/v4l2-core/videobuf-vmalloc.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/stkwebcam/stkwebcam.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/s2255/s2255drv.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/uvc/uvcvideo.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_main.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_benq.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_conex.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_cpia1.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_etoms.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_finepix.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_jeilinj.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_jl2005bcd.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_kinect.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_konica.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_mars.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_mr97310a.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_nw80x.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_ov519.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_ov534.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_ov534_9.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_pac207.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_pac7302.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_pac7311.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_se401.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_sn9c2028.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_sn9c20x.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_sonixb.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_sonixj.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_spca500.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_spca501.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_spca505.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_spca506.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_spca508.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_spca561.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_spca1528.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_sq905.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_sq905c.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_sq930x.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_sunplus.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_stk014.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_stk1135.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_stv0680.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_t613.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_topro.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_tv8532.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_vc032x.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_vicam.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_xirlink_cit.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gspca_zc3xx.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/m5602/gspca_m5602.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/stv06xx/gspca_stv06xx.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/gspca/gl860/gspca_gl860.ko: kernel/drivers/media/usb/gspca/gspca_main.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/pwc/pwc.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/cpia2/cpia2.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/media/usb/usbtv/usbtv.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/hwmon/lm75.ko:
+kernel/drivers/hwmon/si70xx.ko:
+kernel/drivers/mxc/mipi/mxc_mipi_csi2.ko:
+kernel/drivers/hid/hid-apple.ko:
+kernel/drivers/hid/hid-logitech.ko:
+kernel/drivers/hid/hid-magicmouse.ko:
+kernel/drivers/hid/hid-microsoft.ko:
+kernel/drivers/hid/hid-sony.ko:
+kernel/drivers/hid/hid-wiimote.ko: kernel/drivers/input/ff-memless.ko
+kernel/drivers/hid/usbhid/usbhid.ko: kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/iio/adc/vf610_adc.ko:
+kernel/drivers/iio/humidity/dht11.ko:
+kernel/drivers/iio/light/tsl2563.ko:
+kernel/drivers/iio/pressure/mpl3115.ko: kernel/drivers/iio/industrialio-triggered-buffer.ko kernel/drivers/iio/kfifo_buf.ko
+kernel/drivers/iio/industrialio-triggered-buffer.ko: kernel/drivers/iio/kfifo_buf.ko
+kernel/drivers/iio/kfifo_buf.ko:
+kernel/drivers/bluetooth/hci_vhci.ko: kernel/net/bluetooth/bluetooth.ko
+kernel/drivers/bluetooth/hci_uart.ko: kernel/net/bluetooth/bluetooth.ko
+kernel/drivers/bluetooth/bcm203x.ko: kernel/net/bluetooth/bluetooth.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/bluetooth/btusb.ko: kernel/drivers/bluetooth/btbcm.ko kernel/drivers/bluetooth/btintel.ko kernel/net/bluetooth/bluetooth.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/bluetooth/btintel.ko: kernel/net/bluetooth/bluetooth.ko
+kernel/drivers/bluetooth/ath3k.ko: kernel/net/bluetooth/bluetooth.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/bluetooth/btwilink.ko: kernel/net/bluetooth/bluetooth.ko kernel/drivers/misc/ti-st/st_drv.ko
+kernel/drivers/bluetooth/btbcm.ko: kernel/net/bluetooth/bluetooth.ko
+kernel/sound/core/snd-hwdep.ko:
+kernel/sound/core/snd-rawmidi.ko:
+kernel/sound/usb/misc/snd-ua101.ko: kernel/sound/usb/snd-usbmidi-lib.ko kernel/sound/core/snd-rawmidi.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/sound/usb/caiaq/snd-usb-caiaq.ko: kernel/sound/core/snd-rawmidi.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/sound/usb/snd-usb-audio.ko: kernel/sound/core/snd-hwdep.ko kernel/sound/usb/snd-usbmidi-lib.ko kernel/sound/core/snd-rawmidi.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/sound/usb/snd-usbmidi-lib.ko: kernel/sound/core/snd-rawmidi.ko kernel/drivers/usb/core/usbcore.ko kernel/drivers/usb/common/usb-common.ko
+kernel/net/802/p8022.ko: kernel/net/llc/llc.ko
+kernel/net/802/psnap.ko: kernel/net/llc/llc.ko
+kernel/net/802/stp.ko: kernel/net/llc/llc.ko
+kernel/net/netfilter/nfnetlink.ko:
+kernel/net/netfilter/nfnetlink_log.ko: kernel/net/netfilter/nfnetlink.ko
+kernel/net/netfilter/nf_nat.ko:
+kernel/net/netfilter/nf_nat_redirect.ko: kernel/net/netfilter/nf_nat.ko
+kernel/net/netfilter/xt_NETMAP.ko: kernel/net/netfilter/nf_nat.ko
+kernel/net/netfilter/xt_REDIRECT.ko: kernel/net/netfilter/nf_nat_redirect.ko kernel/net/netfilter/nf_nat.ko
+kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko: kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko
+kernel/net/ipv4/netfilter/nf_nat_ipv4.ko: kernel/net/netfilter/nf_nat.ko
+kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko:
+kernel/net/ipv4/netfilter/nf_reject_ipv4.ko:
+kernel/net/ipv4/netfilter/ip_tables.ko:
+kernel/net/ipv4/netfilter/iptable_filter.ko: kernel/net/ipv4/netfilter/ip_tables.ko
+kernel/net/ipv4/netfilter/iptable_mangle.ko: kernel/net/ipv4/netfilter/ip_tables.ko
+kernel/net/ipv4/netfilter/iptable_raw.ko: kernel/net/ipv4/netfilter/ip_tables.ko
+kernel/net/ipv4/netfilter/ipt_REJECT.ko: kernel/net/ipv4/netfilter/nf_reject_ipv4.ko
+kernel/net/ipv4/netfilter/arp_tables.ko:
+kernel/net/ipv4/netfilter/arpt_mangle.ko:
+kernel/net/ipv4/netfilter/arptable_filter.ko: kernel/net/ipv4/netfilter/arp_tables.ko
+kernel/net/ipv4/ip_tunnel.ko:
+kernel/net/ipv4/ipip.ko: kernel/net/ipv4/tunnel4.ko kernel/net/ipv4/ip_tunnel.ko
+kernel/net/ipv4/tunnel4.ko:
+kernel/net/ipv4/xfrm4_mode_transport.ko:
+kernel/net/ipv4/xfrm4_mode_tunnel.ko:
+kernel/net/ipv6/ipv6.ko:
+kernel/net/ipv6/xfrm6_mode_transport.ko:
+kernel/net/ipv6/xfrm6_mode_tunnel.ko: kernel/net/ipv6/ipv6.ko
+kernel/net/ipv6/xfrm6_mode_beet.ko: kernel/net/ipv6/ipv6.ko
+kernel/net/ipv6/sit.ko: kernel/net/ipv6/ipv6.ko kernel/net/ipv4/tunnel4.ko kernel/net/ipv4/ip_tunnel.ko
+kernel/net/8021q/8021q.ko:
+kernel/net/llc/llc.ko:
+kernel/net/llc/llc2.ko: kernel/net/llc/llc.ko
+kernel/net/bridge/bridge.ko: kernel/net/802/stp.ko kernel/net/ipv6/ipv6.ko kernel/net/llc/llc.ko
+kernel/net/bridge/br_netfilter.ko: kernel/net/bridge/bridge.ko kernel/net/802/stp.ko kernel/net/ipv6/ipv6.ko kernel/net/llc/llc.ko
+kernel/net/can/can.ko:
+kernel/net/can/can-raw.ko: kernel/net/can/can.ko
+kernel/net/can/can-bcm.ko: kernel/net/can/can.ko
+kernel/net/can/can-gw.ko: kernel/net/can/can.ko
+kernel/net/bluetooth/bluetooth.ko:
+kernel/net/bluetooth/rfcomm/rfcomm.ko: kernel/net/bluetooth/bluetooth.ko
+kernel/net/bluetooth/bnep/bnep.ko: kernel/net/bluetooth/bluetooth.ko
+kernel/net/bluetooth/hidp/hidp.ko: kernel/net/bluetooth/bluetooth.ko
+kernel/net/sunrpc/sunrpc.ko:
+kernel/net/sunrpc/auth_gss/auth_rpcgss.ko: kernel/lib/oid_registry.ko kernel/net/sunrpc/sunrpc.ko
+kernel/lib/crc-ccitt.ko:
+kernel/lib/crc-itu-t.ko:
+kernel/lib/crc7.ko:
+kernel/lib/libcrc32c.ko:
+kernel/lib/oid_registry.ko:

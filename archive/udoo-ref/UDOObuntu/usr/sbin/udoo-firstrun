@@ -1,0 +1,59 @@
+#!/bin/bash
+
+if [ -f /etc/udoo-firstrun-executed ]; then
+  exit 0
+fi
+
+do_expand_rootfs(){
+  echo "Expanding rootfs..."
+  if grep -qs "sda2\s*/\s*" /etc/fstab; then
+    device="/dev/sda"
+    rootpart="/dev/sda2"
+  elif grep -qs "mmcblk0p2\s*/\s*" /etc/fstab; then
+    device="/dev/mmcblk0"
+    rootpart="/dev/mmcblk0p2"
+  else
+    device="/dev/"$(lsblk -idn -o NAME | grep mmc)
+    rootpart=$(mount | sed -n -e 's/ on \/ .*//p')
+  fi
+
+  PARTITIONS=$(($(fdisk -l $device | grep $device | wc -l)-1))
+
+  echo Editing the partition table...
+  ( (echo d; echo $PARTITIONS; echo n; echo p; echo ; echo ; echo ; echo w; ) |
+    fdisk $device )>/dev/null
+  sync
+
+  echo Probing the partition table...
+  partx -u ${device} || return $?
+
+  echo Resizing the partition...
+  resize2fs ${rootpart} || return $?
+  sync
+}
+
+regenerate_ssh_keys(){
+  echo "Regenerating SSH keys..."
+  rm -f /etc/ssh/ssh_host*
+  DEBIAN_FRONTEND=noninteractive dpkg-reconfigure openssh-server
+  systemctl enable ssh.service
+  systemctl start ssh.service
+}
+
+set +e
+
+if do_expand_rootfs ;
+then
+  echo "Expanding partition success"
+else
+  echo "Expanding rootfs has failed, see log files. Error code: $?"
+fi
+
+regenerate_ssh_keys
+
+echo "Self-destroy..."
+touch /etc/udoo-firstrun-executed
+systemctl mask udoo-firstrun
+
+exit 0
+

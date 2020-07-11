@@ -1,0 +1,3 @@
+Package: *
+Pin: origin repository-test.udoo.org
+Pin-Priority: 1001

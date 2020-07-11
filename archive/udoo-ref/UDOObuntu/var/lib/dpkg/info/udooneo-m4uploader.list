@@ -1,0 +1,14 @@
+/.
+/lib
+/lib/systemd
+/lib/systemd/system
+/lib/systemd/system/udooneo-m4uploader.service
+/usr
+/usr/bin
+/usr/bin/mqx_upload_on_m4SoloX
+/usr/bin/udooneo-m4uploader
+/usr/share
+/usr/share/doc
+/usr/share/doc/udooneo-m4uploader
+/usr/share/doc/udooneo-m4uploader/changelog.gz
+/usr/share/doc/udooneo-m4uploader/copyright

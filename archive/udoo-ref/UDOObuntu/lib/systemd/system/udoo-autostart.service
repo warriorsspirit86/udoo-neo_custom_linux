@@ -1,0 +1,10 @@
+[Unit]
+Description=UDOO autostart script
+
+[Service]
+ExecStart=/usr/bin/udoo-autostart
+SyslogIdentifier=udoo-autostart
+Type=oneshot
+
+[Install]
+WantedBy=local-fs.target
