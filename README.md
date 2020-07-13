@@ -37,7 +37,7 @@ $ make -j8
 
 ### u-boot commands
     
-[u-boot commands](https://github.com/warriorsspirit86/udoo-neo_custom_linux/blob/master/uboot-commands.md)
+[u-boot commands](https://github.com/warriorsspirit86/udoo-neo_custom_linux/blob/master/uboot-commands.sh)
     
 ## Kernel : linux-5.7.7
     
