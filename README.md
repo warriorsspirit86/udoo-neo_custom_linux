@@ -34,7 +34,13 @@ $ export CROSS_COMPILE=arm-linux-gnueabihf-
 $ make udoo_neo_defconfig
 $ make -j8
 ```
-
+### booting linux from uboot console
+    
+Execute below from uboot console:
+```
+setenv bootargs console=ttymxc0,115200 root=/dev/mmcblk0p2; setenv fdtfile imx6sx-udoo-neo-extended.dtb; load mmc 0:2 ${loadaddr} /boot/zImage; load mmc 0:2 ${fdt_addr} /boot/dts/${fdtfile}; bootz ${loadaddr} - ${fdt_addr}
+```
+    
 ### u-boot commands
     
 [u-boot commands](https://github.com/warriorsspirit86/udoo-neo_custom_linux/blob/master/uboot-commands.sh)
