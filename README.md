@@ -23,6 +23,10 @@ Command to start partitioning:
 ```
 sudo fdisk /dev/mmcblk0
 ```
+Another more graphical tool is cfdisk doing the same thing:
+```
+sudo cfdisk /dev/mmcblk0
+```
     
 ## Bootloader : u-boot
     
