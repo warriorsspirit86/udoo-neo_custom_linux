@@ -11,7 +11,7 @@ sudo apt-get install gawk wget git diffstat unzip texinfo gcc-multilib \
      gcc-arm-linux-gnueabihf
 ```
 
-## Partition MMC
+## Preparing MMC
     
 ```
 Device         Boot Start      End  Sectors  Size Id Type
@@ -28,7 +28,9 @@ Another more graphical tool is cfdisk doing the same thing:
 sudo cfdisk /dev/mmcblk0
 ```
     
-## Bootloader : u-boot
+## u-boot
+    
+### Bulding u-boot
     
 Latest u-boot bootloader u-boot-2020-07 is cross compiled and ported in the device.
     
@@ -38,7 +40,17 @@ $ export CROSS_COMPILE=arm-linux-gnueabihf-
 $ make udoo_neo_defconfig
 $ make -j8
 ```
-### booting linux from uboot console
+    
+### Flashing u-boot
+    
+Unmount all the partition from of the mmc card
+```
+$ lsblk
+$ sudo dd if=SPL of=/dev/mmcblk0 bs=1K seek=1
+$ sudo dd if=u-boot.img of=/dev/mmcblk0 bs=1K seek=69
+```
+    
+### booting linux from u-boot console
     
 Execute below from uboot console:
 ```
@@ -49,7 +61,10 @@ setenv bootargs console=ttymxc0,115200 root=/dev/mmcblk0p2; setenv fdtfile imx6s
     
 [u-boot commands](https://github.com/warriorsspirit86/udoo-neo_custom_linux/blob/master/uboot-commands.sh)
     
+    
 ## Kernel : linux-5.7.7
+    
+### Compiling kernel
     
 Configure kernel for udoo:
 ```
@@ -65,17 +80,8 @@ ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make zImage -j8
 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make dtbs -j8
 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make modules -j8
 ```
-
-### flashing bootloader
     
-Unmount all the partition from of the mmc card
-```
-$ lsblk
-$ sudo dd if=SPL of=/dev/mmcblk0 bs=1K seek=1
-$ sudo dd if=u-boot.img of=/dev/mmcblk0 bs=1K seek=69
-```
-    
-### flashing kernel
+### Flashing kernel
 ```
 BOOT_PARTITION=/path/to/boot-partition
 ROOT_PARTITION=/path/to/root-partition
