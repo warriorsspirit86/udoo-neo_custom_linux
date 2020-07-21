@@ -140,7 +140,11 @@ Environment size: 2037/8188 bytes
 ## Prebuilt image
     
 * https://www.udoo.org/downloads/
-
+    
+## Building own OS
+    
+* https://www.udoo.org/forum/threads/issue-with-wlan0-not-able-to-connect.5011/page-2#post-22054
+    
 ## Troubleshooting
     
 ### Network connection
