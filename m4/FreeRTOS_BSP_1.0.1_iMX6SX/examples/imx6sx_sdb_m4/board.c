@@ -69,18 +69,22 @@ void dbg_uart_init(void)
     /* Set debug uart for M4 core domain access only */
     RDC_SetPdapAccess(RDC, BOARD_DEBUG_UART_RDC_PDAP, 3 << (BOARD_DOMAIN_ID * 2), false, false);
 
+#if 0
     /* Select board debug clock derived from OSC clock(24M) */
     CCM_SetRootMux(CCM, ccmRootUartClkSel, ccmRootmuxUartClkOsc24m);
     /* Set relevant divider = 1. */
     CCM_SetRootDivider(CCM, ccmRootUartClkPodf, 0);
+#endif
     /* Enable debug uart clock */
     CCM_ControlGate(CCM, ccmCcgrGateUartClk, ccmClockNeededAll);
     CCM_ControlGate(CCM, ccmCcgrGateUartSerialClk, ccmClockNeededAll);
 
     /* Configure the pin IOMUX */
     configure_uart_pins(BOARD_DEBUG_UART_BASEADDR);
-
+#if 0
     DbgConsole_Init(BOARD_DEBUG_UART_BASEADDR, 24000000, 115200);
+#endif
+    DbgConsole_Init(BOARD_DEBUG_UART_BASEADDR, 80000000, 115200);
 }
 
 /*FUNCTION*---------------------------------------------------------------------

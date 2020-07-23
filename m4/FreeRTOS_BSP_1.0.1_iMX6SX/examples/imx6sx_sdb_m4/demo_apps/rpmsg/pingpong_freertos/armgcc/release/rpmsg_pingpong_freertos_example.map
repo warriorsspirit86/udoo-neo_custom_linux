@@ -933,7 +933,7 @@ LOAD /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-up
                 0x000000001fff8000                __isr_vector
                 0x000000001fff8240                . = ALIGN (0x4)
 
-.text           0x000000001fff8240     0x4a30
+.text           0x000000001fff8240     0x4a20
                 0x000000001fff8240                . = ALIGN (0x4)
  *(.text)
  .text          0x000000001fff8240       0x40 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
@@ -1604,349 +1604,349 @@ LOAD /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-up
                 0x000000001fffb264       0x3c CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/board.c.obj
                 0x000000001fffb264                BOARD_ClockInit
  .text.dbg_uart_init
-                0x000000001fffb2a0       0x58 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/board.c.obj
+                0x000000001fffb2a0       0x48 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/board.c.obj
                 0x000000001fffb2a0                dbg_uart_init
  .text.BOARD_RdcInit
-                0x000000001fffb2f8       0x10 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/board.c.obj
-                0x000000001fffb2f8                BOARD_RdcInit
+                0x000000001fffb2e8       0x10 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/board.c.obj
+                0x000000001fffb2e8                BOARD_RdcInit
  .text.hardware_init
-                0x000000001fffb308       0x1c CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/demo_apps/rpmsg/pingpong_freertos/hardware_init.c.obj
-                0x000000001fffb308                hardware_init
+                0x000000001fffb2f8       0x1c CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/demo_apps/rpmsg/pingpong_freertos/hardware_init.c.obj
+                0x000000001fffb2f8                hardware_init
  .text.UART_Deinit
-                0x000000001fffb324       0x5e CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
-                0x000000001fffb324                UART_Deinit
- *fill*         0x000000001fffb382        0x2 
+                0x000000001fffb314       0x5e CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
+                0x000000001fffb314                UART_Deinit
+ *fill*         0x000000001fffb372        0x2 
  .text.UART_SetBaudRate
-                0x000000001fffb384       0xcc CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
-                0x000000001fffb384                UART_SetBaudRate
+                0x000000001fffb374       0xcc CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
+                0x000000001fffb374                UART_SetBaudRate
  .text.UART_Init
-                0x000000001fffb450       0x60 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
-                0x000000001fffb450                UART_Init
+                0x000000001fffb440       0x60 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
+                0x000000001fffb440                UART_Init
  .text.UART_GetStatusFlag
-                0x000000001fffb4b0        0xe CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
-                0x000000001fffb4b0                UART_GetStatusFlag
- *fill*         0x000000001fffb4be        0x2 
+                0x000000001fffb4a0        0xe CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
+                0x000000001fffb4a0                UART_GetStatusFlag
+ *fill*         0x000000001fffb4ae        0x2 
  .text.MU_SendMsg
-                0x000000001fffb4c0       0x30 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/mu_imx.c.obj
-                0x000000001fffb4c0                MU_SendMsg
+                0x000000001fffb4b0       0x30 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/mu_imx.c.obj
+                0x000000001fffb4b0                MU_SendMsg
  .text.MU_TryReceiveMsg
-                0x000000001fffb4f0       0x3c CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/mu_imx.c.obj
-                0x000000001fffb4f0                MU_TryReceiveMsg
+                0x000000001fffb4e0       0x3c CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/mu_imx.c.obj
+                0x000000001fffb4e0                MU_TryReceiveMsg
  .text.__assert_func
-                0x000000001fffb52c       0x3c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-assert.o)
-                0x000000001fffb52c                __assert_func
- .text.exit     0x000000001fffb568       0x28 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-exit.o)
-                0x000000001fffb568                exit
- .text.fprintf  0x000000001fffb590       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-fprintf.o)
-                0x000000001fffb590                fprintf
-                0x000000001fffb590                fiprintf
+                0x000000001fffb51c       0x3c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-assert.o)
+                0x000000001fffb51c                __assert_func
+ .text.exit     0x000000001fffb558       0x28 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-exit.o)
+                0x000000001fffb558                exit
+ .text.fprintf  0x000000001fffb580       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-fprintf.o)
+                0x000000001fffb580                fprintf
+                0x000000001fffb580                fiprintf
  .text.__libc_init_array
-                0x000000001fffb5b4       0x48 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-init.o)
-                0x000000001fffb5b4                __libc_init_array
- .text.memcpy   0x000000001fffb5fc       0x16 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-memcpy-stub.o)
-                0x000000001fffb5fc                memcpy
- .text.memset   0x000000001fffb612       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-memset.o)
-                0x000000001fffb612                memset
+                0x000000001fffb5a4       0x48 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-init.o)
+                0x000000001fffb5a4                __libc_init_array
+ .text.memcpy   0x000000001fffb5ec       0x16 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+                0x000000001fffb5ec                memcpy
+ .text.memset   0x000000001fffb602       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-memset.o)
+                0x000000001fffb602                memset
  .text.__sfputc_r
-                0x000000001fffb622       0x2e /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x000000001fffb612       0x2e /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x000000001fffb650       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x000000001fffb650                __sfputs_r
+                0x000000001fffb640       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x000000001fffb640                __sfputs_r
  .text._vfprintf_r
-                0x000000001fffb674      0x22c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x000000001fffb674                _vfiprintf_r
-                0x000000001fffb674                _vfprintf_r
+                0x000000001fffb664      0x22c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x000000001fffb664                _vfiprintf_r
+                0x000000001fffb664                _vfprintf_r
  .text._printf_common
-                0x000000001fffb8a0       0xea /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000001fffb8a0                _printf_common
- *fill*         0x000000001fffb98a        0x2 
+                0x000000001fffb890       0xea /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000001fffb890                _printf_common
+ *fill*         0x000000001fffb97a        0x2 
  .text._printf_i
-                0x000000001fffb98c      0x224 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000001fffb98c                _printf_i
- .text.strncmp  0x000000001fffbbb0       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-strncmp.o)
-                0x000000001fffbbb0                strncmp
- .text.strncpy  0x000000001fffbbd4       0x2a /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-strncpy.o)
-                0x000000001fffbbd4                strncpy
- *fill*         0x000000001fffbbfe        0x2 
+                0x000000001fffb97c      0x224 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000001fffb97c                _printf_i
+ .text.strncmp  0x000000001fffbba0       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-strncmp.o)
+                0x000000001fffbba0                strncmp
+ .text.strncpy  0x000000001fffbbc4       0x2a /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-strncpy.o)
+                0x000000001fffbbc4                strncpy
+ *fill*         0x000000001fffbbee        0x2 
  .text.__swbuf_r
-                0x000000001fffbc00       0xa4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-wbuf.o)
-                0x000000001fffbc00                __swbuf_r
+                0x000000001fffbbf0       0xa4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-wbuf.o)
+                0x000000001fffbbf0                __swbuf_r
  .text.__swsetup_r
-                0x000000001fffbca4       0xdc /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-wsetup.o)
-                0x000000001fffbca4                __swsetup_r
- .text.abort    0x000000001fffbd80        0xe /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-abort.o)
-                0x000000001fffbd80                abort
- *fill*         0x000000001fffbd8e        0x2 
+                0x000000001fffbc94       0xdc /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-wsetup.o)
+                0x000000001fffbc94                __swsetup_r
+ .text.abort    0x000000001fffbd70        0xe /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-abort.o)
+                0x000000001fffbd70                abort
+ *fill*         0x000000001fffbd7e        0x2 
  .text.__sflush_r
-                0x000000001fffbd90      0x10c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-fflush.o)
-                0x000000001fffbd90                __sflush_r
+                0x000000001fffbd80      0x10c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-fflush.o)
+                0x000000001fffbd80                __sflush_r
  .text._fflush_r
-                0x000000001fffbe9c       0x54 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-fflush.o)
-                0x000000001fffbe9c                _fflush_r
- .text.std      0x000000001fffbef0       0x48 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000001fffbe8c       0x54 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-fflush.o)
+                0x000000001fffbe8c                _fflush_r
+ .text.std      0x000000001fffbee0       0x48 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x000000001fffbf38        0xc /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
-                0x000000001fffbf38                _cleanup_r
+                0x000000001fffbf28        0xc /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000001fffbf28                _cleanup_r
  .text.__sfmoreglue
-                0x000000001fffbf44       0x2c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
-                0x000000001fffbf44                __sfmoreglue
- .text.__sinit  0x000000001fffbf70       0x60 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
-                0x000000001fffbf70                __sinit
- .text.__sfp    0x000000001fffbfd0       0x78 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
-                0x000000001fffbfd0                __sfp
+                0x000000001fffbf34       0x2c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000001fffbf34                __sfmoreglue
+ .text.__sinit  0x000000001fffbf60       0x60 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000001fffbf60                __sinit
+ .text.__sfp    0x000000001fffbfc0       0x78 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000001fffbfc0                __sfp
  .text._fwalk_reent
-                0x000000001fffc048       0x3c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-fwalk.o)
-                0x000000001fffc048                _fwalk_reent
+                0x000000001fffc038       0x3c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-fwalk.o)
+                0x000000001fffc038                _fwalk_reent
  .text.__swhatbuf_r
-                0x000000001fffc084       0x48 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-makebuf.o)
-                0x000000001fffc084                __swhatbuf_r
+                0x000000001fffc074       0x48 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-makebuf.o)
+                0x000000001fffc074                __swhatbuf_r
  .text.__smakebuf_r
-                0x000000001fffc0cc       0x80 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-makebuf.o)
-                0x000000001fffc0cc                __smakebuf_r
- .text._free_r  0x000000001fffc14c       0x9c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-freer.o)
-                0x000000001fffc14c                _free_r
+                0x000000001fffc0bc       0x80 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-makebuf.o)
+                0x000000001fffc0bc                __smakebuf_r
+ .text._free_r  0x000000001fffc13c       0x9c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-freer.o)
+                0x000000001fffc13c                _free_r
  .text._malloc_r
-                0x000000001fffc1e8       0xb4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-mallocr.o)
-                0x000000001fffc1e8                _malloc_r
- .text._sbrk_r  0x000000001fffc29c       0x20 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-sbrkr.o)
-                0x000000001fffc29c                _sbrk_r
+                0x000000001fffc1d8       0xb4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x000000001fffc1d8                _malloc_r
+ .text._sbrk_r  0x000000001fffc28c       0x20 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-sbrkr.o)
+                0x000000001fffc28c                _sbrk_r
  .text._raise_r
-                0x000000001fffc2bc       0x50 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-signal.o)
-                0x000000001fffc2bc                _raise_r
- .text.raise    0x000000001fffc30c       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-signal.o)
-                0x000000001fffc30c                raise
- .text._kill_r  0x000000001fffc31c       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-signalr.o)
-                0x000000001fffc31c                _kill_r
+                0x000000001fffc2ac       0x50 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-signal.o)
+                0x000000001fffc2ac                _raise_r
+ .text.raise    0x000000001fffc2fc       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-signal.o)
+                0x000000001fffc2fc                raise
+ .text._kill_r  0x000000001fffc30c       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-signalr.o)
+                0x000000001fffc30c                _kill_r
  .text._getpid_r
-                0x000000001fffc340        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-signalr.o)
-                0x000000001fffc340                _getpid_r
- .text.__sread  0x000000001fffc344       0x22 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-stdio.o)
-                0x000000001fffc344                __sread
+                0x000000001fffc330        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-signalr.o)
+                0x000000001fffc330                _getpid_r
+ .text.__sread  0x000000001fffc334       0x22 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-stdio.o)
+                0x000000001fffc334                __sread
  .text.__swrite
-                0x000000001fffc366       0x38 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-stdio.o)
-                0x000000001fffc366                __swrite
- .text.__sseek  0x000000001fffc39e       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-stdio.o)
-                0x000000001fffc39e                __sseek
+                0x000000001fffc356       0x38 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-stdio.o)
+                0x000000001fffc356                __swrite
+ .text.__sseek  0x000000001fffc38e       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-stdio.o)
+                0x000000001fffc38e                __sseek
  .text.__sclose
-                0x000000001fffc3c2        0x8 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-stdio.o)
-                0x000000001fffc3c2                __sclose
- *fill*         0x000000001fffc3ca        0x2 
+                0x000000001fffc3b2        0x8 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-stdio.o)
+                0x000000001fffc3b2                __sclose
+ *fill*         0x000000001fffc3ba        0x2 
  .text._write_r
-                0x000000001fffc3cc       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-writer.o)
-                0x000000001fffc3cc                _write_r
+                0x000000001fffc3bc       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-writer.o)
+                0x000000001fffc3bc                _write_r
  .text._close_r
-                0x000000001fffc3f0       0x20 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-closer.o)
-                0x000000001fffc3f0                _close_r
+                0x000000001fffc3e0       0x20 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-closer.o)
+                0x000000001fffc3e0                _close_r
  .text._fstat_r
-                0x000000001fffc410       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-fstatr.o)
-                0x000000001fffc410                _fstat_r
+                0x000000001fffc400       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-fstatr.o)
+                0x000000001fffc400                _fstat_r
  .text._isatty_r
-                0x000000001fffc434       0x20 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-isattyr.o)
-                0x000000001fffc434                _isatty_r
+                0x000000001fffc424       0x20 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-isattyr.o)
+                0x000000001fffc424                _isatty_r
  .text._lseek_r
-                0x000000001fffc454       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-lseekr.o)
-                0x000000001fffc454                _lseek_r
+                0x000000001fffc444       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-lseekr.o)
+                0x000000001fffc444                _lseek_r
  .text.__malloc_lock
-                0x000000001fffc478        0x2 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-mlock.o)
-                0x000000001fffc478                __malloc_lock
+                0x000000001fffc468        0x2 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-mlock.o)
+                0x000000001fffc468                __malloc_lock
  .text.__malloc_unlock
-                0x000000001fffc47a        0x2 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-mlock.o)
-                0x000000001fffc47a                __malloc_unlock
- .text._read_r  0x000000001fffc47c       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-readr.o)
-                0x000000001fffc47c                _read_r
- .text._close   0x000000001fffc4a0       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(close.o)
-                0x000000001fffc4a0                _close
- .text._fstat   0x000000001fffc4b0       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(fstat.o)
-                0x000000001fffc4b0                _fstat
- .text._getpid  0x000000001fffc4c0       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(getpid.o)
-                0x000000001fffc4c0                _getpid
- .text._isatty  0x000000001fffc4d0       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(isatty.o)
-                0x000000001fffc4d0                _isatty
- .text._kill    0x000000001fffc4e0       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(kill.o)
-                0x000000001fffc4e0                _kill
- .text._lseek   0x000000001fffc4f0       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(lseek.o)
-                0x000000001fffc4f0                _lseek
- .text._sbrk    0x000000001fffc500       0x1c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
-                0x000000001fffc500                _sbrk
- .text._exit    0x000000001fffc51c        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
-                0x000000001fffc51c                _exit
+                0x000000001fffc46a        0x2 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-mlock.o)
+                0x000000001fffc46a                __malloc_unlock
+ .text._read_r  0x000000001fffc46c       0x24 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-readr.o)
+                0x000000001fffc46c                _read_r
+ .text._close   0x000000001fffc490       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(close.o)
+                0x000000001fffc490                _close
+ .text._fstat   0x000000001fffc4a0       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(fstat.o)
+                0x000000001fffc4a0                _fstat
+ .text._getpid  0x000000001fffc4b0       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(getpid.o)
+                0x000000001fffc4b0                _getpid
+ .text._isatty  0x000000001fffc4c0       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(isatty.o)
+                0x000000001fffc4c0                _isatty
+ .text._kill    0x000000001fffc4d0       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(kill.o)
+                0x000000001fffc4d0                _kill
+ .text._lseek   0x000000001fffc4e0       0x10 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(lseek.o)
+                0x000000001fffc4e0                _lseek
+ .text._sbrk    0x000000001fffc4f0       0x1c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+                0x000000001fffc4f0                _sbrk
+ .text._exit    0x000000001fffc50c        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+                0x000000001fffc50c                _exit
  *(.rodata)
  *(.rodata*)
  .rodata.PingPongTask.str1.1
-                0x000000001fffc520      0x151 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/demo_apps/rpmsg/pingpong_freertos/pingpong_freertos.c.obj
+                0x000000001fffc510      0x151 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/demo_apps/rpmsg/pingpong_freertos/pingpong_freertos.c.obj
  .rodata.__func__.11613
-                0x000000001fffc671        0xd CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/demo_apps/rpmsg/pingpong_freertos/pingpong_freertos.c.obj
+                0x000000001fffc661        0xd CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/demo_apps/rpmsg/pingpong_freertos/pingpong_freertos.c.obj
  .rodata.main.str1.1
-                0x000000001fffc67e        0xf CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/demo_apps/rpmsg/pingpong_freertos/pingpong_freertos.c.obj
+                0x000000001fffc66e        0xf CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/examples/imx6sx_sdb_m4/demo_apps/rpmsg/pingpong_freertos/pingpong_freertos.c.obj
  .rodata.__func__.7343
-                0x000000001fffc68d       0x1b CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_rtos.c.obj
+                0x000000001fffc67d       0x1b CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_rtos.c.obj
  .rodata.__func__.7347
-                0x000000001fffc6a8       0x1b CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_rtos.c.obj
+                0x000000001fffc698       0x1b CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_rtos.c.obj
  .rodata.__func__.7356
-                0x000000001fffc6c3       0x13 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_rtos.c.obj
+                0x000000001fffc6b3       0x13 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_rtos.c.obj
  .rodata.rpmsg_channel_created_rtos.str1.1
-                0x000000001fffc6d6       0x25 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_rtos.c.obj
+                0x000000001fffc6c6       0x25 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_rtos.c.obj
  .rodata.rpmsg_channel_deleted_rtos.str1.1
-                0x000000001fffc6fb       0x80 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_rtos.c.obj
+                0x000000001fffc6eb       0x80 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_rtos.c.obj
  .rodata.rpmsg_read_rtos_cb.str1.1
-                0x000000001fffc77b        0x5 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_rtos.c.obj
+                0x000000001fffc76b        0x5 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_rtos.c.obj
  .rodata.__func__.10321
-                0x000000001fffc780        0xa CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
+                0x000000001fffc770        0xa CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
  .rodata.__func__.10325
-                0x000000001fffc78a        0xe CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
+                0x000000001fffc77a        0xe CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
  .rodata.__func__.10353
-                0x000000001fffc798       0x1a CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
+                0x000000001fffc788       0x1a CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
  .rodata.__func__.10361
-                0x000000001fffc7b2       0x1b CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
+                0x000000001fffc7a2       0x1b CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
  .rodata.__func__.10370
-                0x000000001fffc7cd       0x1e CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
+                0x000000001fffc7bd       0x1e CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
  .rodata.__func__.10374
-                0x000000001fffc7eb       0x1f CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
+                0x000000001fffc7db       0x1f CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
  .rodata._shutdown_cpu.str1.1
-                0x000000001fffc80a       0x82 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
+                0x000000001fffc7fa       0x82 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
                                          0x84 (size before relaxing)
  .rodata.platform_interrupt_disable.str1.1
-                0x000000001fffc88c       0x21 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
+                0x000000001fffc87c       0x21 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
  .rodata.platform_interrupt_disable_all.str1.1
-                0x000000001fffc8ad       0x19 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
+                0x000000001fffc89d       0x19 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
  .rodata.platform_interrupt_enable.str1.1
-                0x000000001fffc8c6       0x46 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
+                0x000000001fffc8b6       0x46 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
  .rodata.platform_interrupt_enable_all.str1.1
-                0x000000001fffc90c       0x18 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
+                0x000000001fffc8fc       0x18 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/imx6sx_m4/platform.c.obj
  .rodata.rpmsg_start_ipc.str1.1
-                0x000000001fffc924        0xc CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_core.c.obj
+                0x000000001fffc914        0xc CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/rpmsg/rpmsg_core.c.obj
  .rodata.__func__.7086
-                0x000000001fffc930        0x9 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
+                0x000000001fffc920        0x9 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
  .rodata.__func__.7089
-                0x000000001fffc939        0xb CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
+                0x000000001fffc929        0xb CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
  .rodata.__func__.7178
-                0x000000001fffc944       0x11 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
+                0x000000001fffc934       0x11 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
  .rodata.__func__.7192
-                0x000000001fffc955       0x15 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
+                0x000000001fffc945       0x15 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
  .rodata.__func__.7211
-                0x000000001fffc96a        0x8 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
+                0x000000001fffc95a        0x8 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
  .rodata.env_deinit.str1.1
-                0x000000001fffc972       0x15 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
+                0x000000001fffc962       0x15 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
  .rodata.env_init.str1.1
-                0x000000001fffc987       0xa0 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
+                0x000000001fffc977       0xa0 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
  .rodata.env_isr.str1.1
-                0x000000001fffca27       0x12 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
+                0x000000001fffca17       0x12 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
  .rodata.env_register_isr.str1.1
-                0x000000001fffca39       0x13 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
+                0x000000001fffca29       0x13 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/middleware/multicore/open-amp/porting/env/freertos/rpmsg_porting.c.obj
  .rodata.vTaskStartScheduler.str1.1
-                0x000000001fffca4c        0x5 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/rtos/FreeRTOS/Source/tasks.c.obj
+                0x000000001fffca3c        0x5 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/rtos/FreeRTOS/Source/tasks.c.obj
  .rodata.CSWTCH.7
-                0x000000001fffca51        0x6 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
+                0x000000001fffca41        0x6 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
  .rodata.UART_Init.str1.1
-                0x000000001fffca57       0x72 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
+                0x000000001fffca47       0x72 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
  .rodata.__func__.8944
-                0x000000001fffcac9        0xa CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
+                0x000000001fffcab9        0xa CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/uart_imx.c.obj
  .rodata.MU_TryReceiveMsg.str1.1
-                0x000000001fffcad3       0x17 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/mu_imx.c.obj
+                0x000000001fffcac3       0x17 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/mu_imx.c.obj
  .rodata.MU_TrySendMsg.str1.1
-                0x000000001fffcaea       0x7c CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/mu_imx.c.obj
+                0x000000001fffcada       0x7c CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/mu_imx.c.obj
  .rodata.__func__.8819
-                0x000000001fffcb66        0xb CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/mu_imx.c.obj
+                0x000000001fffcb56        0xb CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/mu_imx.c.obj
  .rodata.__func__.8829
-                0x000000001fffcb71       0x11 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/mu_imx.c.obj
+                0x000000001fffcb61       0x11 CMakeFiles/rpmsg_pingpong_freertos_example.dir/home/abhishek/udoo/udoo-neo_custom_linux/m4/FreeRTOS_BSP_1.0.1_iMX6SX/platform/drivers/src/mu_imx.c.obj
  .rodata.__assert_func.str1.1
-                0x000000001fffcb82       0x3c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-assert.o)
+                0x000000001fffcb72       0x3c /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-assert.o)
                                          0x3d (size before relaxing)
- *fill*         0x000000001fffcbbe        0x2 
+ *fill*         0x000000001fffcbae        0x2 
  .rodata._global_impure_ptr
-                0x000000001fffcbc0        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-impure.o)
-                0x000000001fffcbc0                _global_impure_ptr
+                0x000000001fffcbb0        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-impure.o)
+                0x000000001fffcbb0                _global_impure_ptr
  .rodata._vfprintf_r.str1.1
-                0x000000001fffcbc4       0x11 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x000000001fffcbb4       0x11 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
  .rodata._printf_i.str1.1
-                0x000000001fffcbd5       0x22 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
- *fill*         0x000000001fffcbf7        0x1 
+                0x000000001fffcbc5       0x22 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ *fill*         0x000000001fffcbe7        0x1 
  .rodata.__sf_fake_stderr
-                0x000000001fffcbf8       0x20 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
-                0x000000001fffcbf8                __sf_fake_stderr
+                0x000000001fffcbe8       0x20 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000001fffcbe8                __sf_fake_stderr
  .rodata.__sf_fake_stdin
-                0x000000001fffcc18       0x20 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
-                0x000000001fffcc18                __sf_fake_stdin
+                0x000000001fffcc08       0x20 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000001fffcc08                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x000000001fffcc38       0x20 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
-                0x000000001fffcc38                __sf_fake_stdout
+                0x000000001fffcc28       0x20 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000001fffcc28                __sf_fake_stdout
  *(.glue_7)
- .glue_7        0x000000001fffcc58        0x0 linker stubs
+ .glue_7        0x000000001fffcc48        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000000001fffcc58        0x0 linker stubs
+ .glue_7t       0x000000001fffcc48        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x000000001fffcc58        0x0 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .eh_frame      0x000000001fffcc48        0x0 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
  *(.init)
- .init          0x000000001fffcc58        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
-                0x000000001fffcc58                _init
- .init          0x000000001fffcc5c        0x8 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ .init          0x000000001fffcc48        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x000000001fffcc48                _init
+ .init          0x000000001fffcc4c        0x8 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
  *(.fini)
- .fini          0x000000001fffcc64        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
-                0x000000001fffcc64                _fini
- .fini          0x000000001fffcc68        0x8 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
-                0x000000001fffcc70                . = ALIGN (0x4)
+ .fini          0x000000001fffcc54        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x000000001fffcc54                _fini
+ .fini          0x000000001fffcc58        0x8 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+                0x000000001fffcc60                . = ALIGN (0x4)
 
-.vfp11_veneer   0x000000001fffcc70        0x0
- .vfp11_veneer  0x000000001fffcc70        0x0 linker stubs
+.vfp11_veneer   0x000000001fffcc60        0x0
+ .vfp11_veneer  0x000000001fffcc60        0x0 linker stubs
 
-.v4_bx          0x000000001fffcc70        0x0
- .v4_bx         0x000000001fffcc70        0x0 linker stubs
+.v4_bx          0x000000001fffcc60        0x0
+ .v4_bx         0x000000001fffcc60        0x0 linker stubs
 
-.iplt           0x000000001fffcc70        0x0
- .iplt          0x000000001fffcc70        0x0 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+.iplt           0x000000001fffcc60        0x0
+ .iplt          0x000000001fffcc60        0x0 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x000000001fffcc70        0x8
-                0x000000001fffcc70                __exidx_start = .
+.ARM            0x000000001fffcc60        0x8
+                0x000000001fffcc60                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x000000001fffcc70        0x8 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
-                0x000000001fffcc78                __exidx_end = .
+ .ARM.exidx     0x000000001fffcc60        0x8 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+                0x000000001fffcc68                __exidx_end = .
 
-.rel.dyn        0x000000001fffcc78        0x0
- .rel.iplt      0x000000001fffcc78        0x0 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+.rel.dyn        0x000000001fffcc68        0x0
+ .rel.iplt      0x000000001fffcc68        0x0 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
-.ctors          0x000000001fffcc78        0x0
-                0x000000001fffcc78                __CTOR_LIST__ = .
+.ctors          0x000000001fffcc68        0x0
+                0x000000001fffcc68                __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x000000001fffcc78                __CTOR_END__ = .
+                0x000000001fffcc68                __CTOR_END__ = .
 
-.dtors          0x000000001fffcc78        0x0
-                0x000000001fffcc78                __DTOR_LIST__ = .
+.dtors          0x000000001fffcc68        0x0
+                0x000000001fffcc68                __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *crtbegin?.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x000000001fffcc78                __DTOR_END__ = .
+                0x000000001fffcc68                __DTOR_END__ = .
 
-.preinit_array  0x000000001fffcc78        0x0
-                0x000000001fffcc78                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000001fffcc68        0x0
+                0x000000001fffcc68                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000000001fffcc78                PROVIDE (__preinit_array_end = .)
+                0x000000001fffcc68                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000000001fffcc78        0x4
-                0x000000001fffcc78                PROVIDE (__init_array_start = .)
+.init_array     0x000000001fffcc68        0x4
+                0x000000001fffcc68                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000000001fffcc78        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
-                0x000000001fffcc7c                PROVIDE (__init_array_end = .)
+ .init_array    0x000000001fffcc68        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+                0x000000001fffcc6c                PROVIDE (__init_array_end = .)
 
-.fini_array     0x000000001fffcc7c        0x4
+.fini_array     0x000000001fffcc6c        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000000001fffcc7c        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .fini_array    0x000000001fffcc6c        0x4 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000000001fffcc80                __etext = .
-                0x000000001fffcc80                __DATA_ROM = .
+                0x000000001fffcc70                __etext = .
+                0x000000001fffcc70                __DATA_ROM = .
 
-.data           0x0000000020000000      0x1d0 load address 0x000000001fffcc80
+.data           0x0000000020000000      0x1d0 load address 0x000000001fffcc70
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                __DATA_RAM = .
                 0x0000000020000000                __data_start__ = .
@@ -1975,14 +1975,14 @@ LOAD /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-up
  *(.jcr*)
                 0x00000000200001d0                . = ALIGN (0x4)
                 0x00000000200001d0                __data_end__ = .
-                0x000000001fffce50                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x000000001fffce40                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
                 0x0000000020000000                text_end = (ORIGIN (m_text) + LENGTH (m_text))
                 0x0000000000000001                ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
 
-.igot.plt       0x00000000200001d0        0x0 load address 0x000000001fffce50
+.igot.plt       0x00000000200001d0        0x0 load address 0x000000001fffce40
  .igot.plt      0x00000000200001d0        0x0 /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-update-linux/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
-.bss            0x00000000200001d0     0x51f0 load address 0x000000001fffce50
+.bss            0x00000000200001d0     0x51f0 load address 0x000000001fffce40
                 0x00000000200001d0                . = ALIGN (0x4)
                 0x00000000200001d0                __START_BSS = .
                 0x00000000200001d0                __bss_start__ = .
@@ -2072,7 +2072,7 @@ LOAD /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-up
                 0x00000000200053c0                __bss_end__ = .
                 0x00000000200053c0                __END_BSS = .
 
-.heap           0x00000000200053c0      0x400 load address 0x0000000020002040
+.heap           0x00000000200053c0      0x400 load address 0x0000000020002030
                 0x00000000200053c0                . = ALIGN (0x8)
                 0x00000000200053c0                __end__ = .
                 0x00000000200053c0                PROVIDE (end = .)
@@ -2081,7 +2081,7 @@ LOAD /home/abhishek/udoo/udoo-neo_custom_linux/m4/gcc-arm-none-eabi-7-2018-q2-up
  *fill*         0x00000000200053c0      0x400 
                 0x00000000200057c0                __HeapLimit = .
 
-.stack          0x00000000200057c0      0x400 load address 0x0000000020002440
+.stack          0x00000000200057c0      0x400 load address 0x0000000020002430
                 0x00000000200057c0                . = ALIGN (0x8)
                 0x0000000020005bc0                . = (. + STACK_SIZE)
  *fill*         0x00000000200057c0      0x400 
